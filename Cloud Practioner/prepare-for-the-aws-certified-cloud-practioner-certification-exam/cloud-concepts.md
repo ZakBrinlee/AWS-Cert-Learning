@@ -1,0 +1,88 @@
+### Intro
+- 1970's - Virtual Machines emerged
+  - Multiple operating systems in one hardware configuration
+  - Hypervisor
+    - Software that allows multiple operating systems to run on a single host
+    - Each operating system is isolated from the others
+
+### Cloud Computing Concepts
+- 6 Benefits of cloud computing
+  - Trade capital expense for variable expense
+  - Benefit from massive economies of scale
+  - Stop guessing capacity
+  - Increase speed and agility
+  - Stop spending money running and maintaining data centers
+  - Go global in minutes
+- 3 types of cloud computing
+  - Infrastructure as a Service (IaaS)
+    - Provides virtual servers and storage
+    - Google Cloud, AWS, Azure
+  - Platform as a Service (PaaS)
+    - Provides a platform allowing customers to develop, run and manage applications without the complexity of building and maintaining the infrastructure
+    - MSFT Azure web hosting, Heroku
+  - Software as a Service (SaaS)
+    - Provides software that is hosted in the cloud
+    - Outlook, GMAIL
+- 3 types of cloud deployment models
+  - Public Cloud
+    - Owned and operated by a third-party cloud service provider
+    - AWS, Google Cloud, Azure
+  - Private Cloud
+    - Operated solely for a single organization
+    - On-premises or off-premises
+  - Hybrid Cloud
+    - Combination of public and private cloud
+    - Allows data and applications to be shared between them
+- Well Architected Framework (Design Principles)
+  - 6 Pillars
+    - Operational Excellence
+    - Security
+    - Reliability
+    - Performance Efficiency
+    - Cost Optimization
+    - Sustainability
+
+### Introduction to AWS
+- History
+  - 2006 - AWS launched
+- Provides IT infrastructure services to organizations as web services
+- 24 AWS Services by Groups
+  - Compute
+  - Storage
+  - Database
+  - Migration
+  - Networking and Content Delivery
+  - Developer Tools
+  - Management Tools
+  - Security, Identity and Compliance
+  - Analytics
+  - AI and Machine Learning
+  - AR and VR
+  - Customer Engagement
+  - Business Applications
+  - IOT
+  - Game Development
+  - Mobile Services
+  - Robotics
+  - Satellite
+  - Blockchain
+  - Quantum Technologies
+  - End User Computing
+  - Media Services
+  - Machine Learning
+  - Security
+- AWS Global Infrastructure
+  - 24 Regions
+  - 77 Availability Zones
+  - 220+ Edge Locations
+  
+### Diving into AWS
+- Compute Services
+  - Provide virtual server hosting, container management, and serverless computing
+- Storage services
+  - Provide scalable storage for data and applications
+  - S3, Glacier, EBS, EFS
+- Database Services
+  - Provide scalable and managed database services
+  - RDS, DynamoDB, Redshift
+  - Elasticache, Neptune
