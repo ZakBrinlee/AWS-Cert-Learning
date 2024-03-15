@@ -1,6 +1,6 @@
 # [Prepare for the AWS Certified Cloud Practitioner](https://www.linkedin.com/learning/aws-certified-cloud-practitioner-clf-c01-cert-prep-1-cloud-concepts)
 Started: March 15, 2023
-Completed:
+Completed: March 15, 2023
 
 ## Top Notes
 - 4 domains
@@ -38,3 +38,28 @@ Completed:
 ## Links
 - [AWS Cloud Adoption Framework (AWS CAF)](https://aws.amazon.com/cloud-adoption-framework/)
 
+## Core Services Cheat Sheet:
+### Compute
+- EC2: Virtual Server
+- Elastic Beanstalk: Automatically "grows" your application
+- Elastic Load Balancing: Balances incoming traffic loads
+- Lambda: Runs serverless code
+- Lightsail: Preconfigured virtual servers
+### Storage
+- S3: Object storage
+- Elastic Block Store: Block storage for EC2
+- Snowball: Data migration tool (huge amount with physical device)
+- Storage Gateway: Connects on-premises software appliance with cloud-based storage
+### Database
+- DynamoDb: NoSQL database
+- RDS: Relational Database that supports six types of database engines
+- Aurora: Relational Database running on TDS
+- Redshift: Data warehouse for huge amounts of data
+### Network and Content Delivery
+- VPC: Virtual Private Cloud
+- CloudFront: Caches content to edge locations to load faster
+- Route 53: Routes domains to services and IP addresses
+### Management Tools
+- CloudFormation: Form resources with templates
+- CloudTrail: Tracks "trails" of action (audit logs)
+- CloudWatch: Watches for issues - and can automatically act on triggers
