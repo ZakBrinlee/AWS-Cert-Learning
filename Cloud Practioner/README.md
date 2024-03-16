@@ -86,4 +86,4 @@
 - DynamoDB Accelerator: In-memory cache for DynamoDB
 
 
-![AWS Shared Responsibility Model](/assets/aws-shared-responsibility-model.png "AWS Shared Responsibility Model")
+![AWS Shared Responsibility Model](./assets/aws-shared-responsibility-model.png)
