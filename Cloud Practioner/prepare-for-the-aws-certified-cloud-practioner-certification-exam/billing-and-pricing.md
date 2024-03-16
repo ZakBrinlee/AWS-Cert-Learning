@@ -1,6 +1,70 @@
 
 ### Intro
+- Billing, Pricing and Support Domain
+  - Compare and contrast the various pricing models for AWS
+  - Recognize the various account structures in relation to AWS billing and pricing
+  - Identify resources available for billing support
+- AWS Support Plans
+  - 5 supports plans from free to over 15k per month
+  - Basic, Developer, Business, Enterprise, and Enterprise Plus
+- Knowledge of AWS technical resources and AWS support options
 
 ### Prepare Your App
+- Billing and Cost Mangement Dashboard
+   - Estimate and plan your AWS Costs
+   - Consolidated billing: simple accounting for multiple AWS accounts in one org
+   - Alert when you're nearing usage thresholds
+   - Use Cost Explorer to analyze your costs
+- Pay as you Go model
+   - No huge upfront costs
+   - billed only for consumed use
+   - Compute
+      - Pay for hourly for launch to termination
+   - Storage
+      - Pay for the amount of data stored (GB)
+   - Data Transfers
+      - Pay to transfer data out of AWS
+- Consolidated Billing
+  - One bill for all accounts and teams
+  - Independant account that can't use any other services
+- Cost Calculators
+  - Total Cost of Ownership (TCO) Calculator
+    - Compare on-premises vs AWS
+    - Estimate the cost of using AWS
+  - Simple Monthly Calculator (AWS Pricing)
+    - Estimate cost of a cloud architecture solution you want to build
+    - Add services and resources to estimate cost by region and calendar
+  - Cost Explorer
+    - Analyze your costs and usage
+    - Identify trends and spending patterns
+    - Forecast future costs
+- AWS Free Tier
+  - 12 months of free, limited access to AWS services
+  - 60+ products
+  - multiple tier types per service (12 months, always free, trials)
+  - Different types of usage limits (time, quantity, etc.)
 
 ### Support Plans
+- Basic
+  - No Tech Support
+  - AWS community forums account
+  - Seven core Trusted Advisor checks
+  - AWS Personal Health Dashboard
+- Developer
+  - 29$ per month starting or 3% of monthly AWS usage
+  - 1 primary contact to submit tech support requests
+  - SLA for 12 hours for inpaired and 24 hours for general guidance
+- Business
+  - $100 a month or 10% of monthly AWS usage
+  - Unlimited # of contacts can open unlimited support tickets
+  - Full access to AWS Trusted Advisor Cehcks
+  - 24/7 phone, email, and chat support
+  - Common 3rd party application integration support
+  - 1 hour response time for impaired and 24 hours for general guidance
+- Enterprise On-Ramp
+  - $5500 a month or 10% of monthly AWS usage
+  - Short-term engagement with AWS Support for architectural and scaling guidance for Infrastructure Event Management
+  - 24/7 phone, email, and chat support
+  - Access to a pool of TAMS and Concierge Support team
+  - Access to buisness management reviews
+  - 30 minute response time for business critical impacts

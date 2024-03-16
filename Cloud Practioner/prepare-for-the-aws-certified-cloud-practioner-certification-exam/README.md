@@ -36,7 +36,13 @@ Completed: March 15, 2023
 - 
 
 ## Links
+- [AWS Certified Cloud Practitioner (CLF-C01) Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [AWS Cloud Adoption Framework (AWS CAF)](https://aws.amazon.com/cloud-adoption-framework/)
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+- [AWS Pricing Calculator](https://calculator.aws/#/)
+- [AWS Educate](https://aws.amazon.com/education/awseducate/)
+- [AWS re:Post](https://aws.amazon.com/blogs/aws/)
+- [AWS Collective](https://stackoverflow.com/collectives/aws)
 
 ## Core Services Cheat Sheet:
 ### Compute
