@@ -402,11 +402,203 @@ Course coverage:
   - Indepentent of the resources
 
 ### Monitoring and Analytics
+- Monitoring: Observing systems, collecting metrics and then using data to make decisions
+#### Amazon CloudWatch
+- Web service that enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics.
+- Metrics: Variables tied to your resources
+- Alarms: Triggered actions based on thresholds reached by metrics
+- Events: Near real-time stream of system events that describe changes in AWS resources
+- Benefits
+  - Access all metrics from a central location
+  - Gain visibility into apps, infrastructure, and services
+  - Reduce MTTR and improve TCO (Mean Time to Recovery, Total Cost of Ownership)
+  - Drive insights to optimize apps and infrastructure
+
+#### AWS CloudTrail
+- Records API calls for your account and delivers log files into S3 buckets
+  - Who made the call, when, from where, and what was the response
+  - State, time, source, and destination
+- CloudTrail Insights
+  - Identifies unusual activity in your account
+#### AWS Trusted Advisor
+- Web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.
+- 5 Pillars of inspection
+  - Cost Optimization
+  - Performance
+  - Security
+  - Fault Tolerance
+  - Service Limits
+- Trusted Advisor offers a list of recommended actions and additional resources to learn more about AWS best practices. 
+- For each category:
+  - The green check indicates the number of items for which it detected **no problems**.
+  - The orange triangle represents the number of recommended **investigations**.
+  - The red circle represents the number of recommended **actions**.
 
 ### Pricing and Support
+#### AWS Free Tier
+- Always Free
+- 12 months free
+- Trials
+- Examples
+  - Lambda
+    - allows 1 million free requests and up to 3.2 million seconds of compute time per month
+  - S3
+    - 5GB of standard storage free for 12 months
+  - AWS Lightsail
+    - 750 hours of free usage for 1 month trial
+
+#### AWS Pricing Concepts
+- Pay for what you use
+  - Each service, pay for exactly the amount of resources you use, without long-term contracts or complex licensing
+- Pay less when you reserve
+  - Reserved Instances
+    - Reserved capacity for a specific instance type in a specific region
+    - 1 or 3 year terms
+    - Upfront, partial upfront, or no upfront
+- Pay less with volume-based discounts when you use more
+  - Volume-based discounts
+    - Discounts based on the volume of usage
+- AWS Pricing Calculator
+  - Estimate the cost of using AWS services
+
+#### Billing Dashboard
+- AWS Billing and Cost Management
+  - Provides tools to help you monitor your AWS usage and optimize your costs
+  - Compare your current month-to-date balance with the previous month, and get a forecast of the next month based on current usage.
+  - View month-to-date spend by service.
+  - View Free Tier usage by service.
+  - Access Cost Explorer and create budgets.
+  - Purchase and manage Savings Plans.
+
+#### Consolidated Billing
+- Consolidated Billing
+  - Simplify billing by combining multiple accounts into a single bill
+  - Volume pricing discounts
+  - Centralized billing
+  - Cost allocation tags
+  - Reserved instance sharing
+  - AWS Organizations
+
+#### AWS Budgets
+- Set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount
+- Budgets can be set for the following:
+  - Cost budgets
+  - Usage budgets
+  - Reservation budgets
+  - Savings plan budgets
+
+#### AWS Cost Explorer
+- Visualize, understand, and manage your AWS costs and usage over time
+
+#### AWS Support Plans
+- Help to troubleshoot issues, lower costs, and efficiently use AWS Services
+- Basic
+- Developer
+  - Proof of concept and development, some support but not business critical
+- Business
+  - Trusted advisor, 24/7 support, and more
+- Enterprise On-Ramp
+  - Business critical workloads
+  - 30 minute response time
+  - Technical account manager
+- Enterprise
+  - 15 minute response time
+  - Designated TAM
+- TAM (Technical Account Manager)
+  - Proactive guidance and best practices
+  - Single point of contact
+  - Review architecture and provide recommendations
+
+#### AWS Marketplace
+- Digital catalog with thousands of software listings from independent software vendors
+- Find, test and buy software that runs on AWS.
+- Marketplace categories
+  - Software Infrastructure
+  - DevOps
+  - Data Products
+  - Professional Services
+  - Machine Learning
+  - Business Applications
+  - IoT
+  - Industries
 
 ### Migration and Innovation
+#### AWS Cloud Adoption Framework
+- Framework to help organizations develop an effective and efficient plan for their cloud adoption journey
+- 6 core perspectives of Cloud Adoption Framework
+  - Perspective: area of focus that addresses a distinct responsibility in the cloud adoption process
+    - Business Capabilities
+      - Business
+        - ensures that IT aligns with business needs and that IT investments link to key business results.
+      - People
+        - supports development of an organization-wide change management strategy for successful cloud adoption.
+      - Governance
+        - focuses on the skills and processes to align IT strategy with business strategy.
+    - Technical Capabilities
+      - Platform
+        - includes principles and patterns for implementing new solutions on the cloud, and migrating on-premises workloads to the cloud.
+      - Security
+        - ensures that the organization meets security objectives for visibility, auditability, control, and agility.
+      - Operations
+        - helps you to enable, run, use, operate, and recover IT workloads to the level agreed upon with your business stakeholders.
+
+#### Migration strategies
+- 6 Strategies for migration
+  - Rehosting
+    - Lift and shift
+    - Move to cloud without changing the code
+  - Replatforming
+    - Lift, tinker, and shift
+    - Optimize the application for the cloud
+  - Repurchasing
+    - Drop and shop
+    - Move to a different product
+  - Refactoring/re-architecting
+    - involves reimagining how an application is architected and developed by using cloud-native features.
+  - Retaining
+    - Keep the application as is
+    - Usually just for business critical applications
+  - Retiring
+    - Turn off the application
+
+#### AWS Snow Family
+- collection of physical devices that help to physically transport up to exabytes of data into and out of AWS.
+- AWS Snow Family is composed of **AWS Snowcone**, **AWS Snowball**, and **AWS Snowmobile**.
+- AWS Snowcone
+  - Small, portable, rugged, and secure edge computing and data transfer device
+  - 2 CPUs, 4 GB of memory, and 14 TB of usable storage
+- AWS Snowball
+  - Petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of AWS
+  - 50 TB and 80 TB models
+- AWS Snowmobile
+  - Exabyte-scale data transfer service used to move extremely large amounts of data to AWS
+  - 100 PB per Snowmobile
+  - 45-foot long ruggedized shipping container
+
+#### Innovation with AWS
+- Consider some of the paths you might explore in the future as you continue on your cloud journey.
 
 ### The Cloud Journey
+#### The AWS Well-Architected Framework
+- Framework to help cloud architects build secure, high-performing, resilient, and efficient infrastructure for their applications
+- 6 Pillars
+  - Operational Excellence
+    - ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.
+    - Design principles for operational excellence in the cloud include performing operations as code, annotating documentation, anticipating failure, and frequently making small, reversible changes.
+  - Security
+    - ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies. 
+  - Reliability
+    - Reliability includes testing recovery procedures, scaling horizontally to increase aggregate system availability, and automatically recovering from failure.
+  - Performance Efficiency
+    - ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve.
+    - Evaluating the performance efficiency of your architecture includes experimenting more often, using serverless architectures, and designing systems to be able to go global in minutes.
+  - Cost Optimization
+    - ability to run systems to deliver business value at the lowest price point. 
+    - Cost optimization includes adopting a consumption model, analyzing and attributing expenditure, and using managed services to reduce the cost of ownership.
+  - Sustainability
+    - ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.
+#### Benefits of the AWS Cloud
 
 ### AWS Certified Cloud Practitioner Basics
+#### Exam Details
+#### Exam Strategies
