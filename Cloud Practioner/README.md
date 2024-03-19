@@ -4,7 +4,7 @@
 ## [ ] [AWS Certification Prep Guide](https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1)
   - ### [X] Exam Prep Official Question Set: AWS Certified Cloud Practitioner
   - ### [X] AWS Cloud Practitioner Essentials
-  - ### [ ] AWS Cloud Quest: Cloud Practitioner
+  - ### [X] AWS Cloud Quest: Cloud Practitioner
   - ### [ ] Exam Prep Standard Course: AWS Certified Cloud Practitioner
   - ### [ ] Exam Prep Official Pretest: AWS Certified Cloud Practitioner
   - ### [ ] Exam Prep Enhanced Course: AWS Certified Cloud Practitioner
@@ -87,3 +87,4 @@
 
 
 ![AWS Shared Responsibility Model](./assets/aws-shared-responsibility-model.png)
+![AWS Well Architected Pillars](./assets/well-architected-pillars.png)
