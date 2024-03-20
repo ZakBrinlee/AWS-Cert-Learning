@@ -1,9 +1,6 @@
 # [Exam Prep Standard Course: AWS Certified Cloud Practioner](https://explore.skillbuilder.aws/learn/course/16434/exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english)
 Started: March 19, 2023
-Completed: 
-
-## Top Notes
-- 
+Completed: March 19, 2023
 
 ## Links
 - [AWS Well-Architected Framework Whitepaper](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
@@ -19,10 +16,10 @@ Completed:
 - [Storage services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html)
 - [Analytics services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html)
 - [Machine Learning Concepts](https://docs.aws.amazon.com/machine-learning/latest/dg/machine-learning-concepts.html)
-- []()
-- []()
-- []()
-- []()
+- [Select the best pricing model](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/select-the-best-pricing-model.html)
+- [Getting started with AWS Support](https://docs.aws.amazon.com/awssupport/latest/user/getting-started.html)
+- [AWS Support Plans](https://docs.aws.amazon.com/awssupport/latest/user/aws-support-plans.html)
+- [What is AWS Billing and Cost Management?](https://docs.aws.amazon.com/cost-management/latest/userguide/what-is-costmanagement.html)
 
 ## Notes
 #### Intro Video
@@ -637,6 +634,81 @@ Completed:
   - AWS IoT Greengrass
 
 ### Domain 4: Billing, Pricing, and Support
-#### 4.1 Compare and contrast the various pricing models for AWS
+#### 4.1 Compare pricing models for AWS
+- Cost Optimization
+  - Ability to run systems to deliver business value at the lowest price point
+  - Optimization Services
+    - AWS Cost Explorer
+    - AWS Budgets
+    - AWS Cost and Usage Report
+    - AWS Trusted Advisor
+    - AWS S3
+    - AWS Lambda
+    - Spot Instance
+    - Auto Scaling
+  - Right sizing infrastructure
+  - Increase elasticity
+    - only use resources when needed.
+  - Choose the right pricing model
+  - Match storage to usage
+  - Data transfer
+  - Measure, monitor, and improve
+  - Pricing Models
+    - On Demand
+    - Reserved Instances
+      - steady state needs
+    - Spot Instances
+      - increase in demand
+    - Dedicated Instances
+    - Capacity Reservations
+    - Dedicated hosts
+    - Savings Plans
+  - **Best Practices**
+    - Define and enforce tags
+    - define your account structure
+    - define and use metrics
+    - share ownership
+    - cloud center of excellence
+
 #### 4.2 Understand resources for billing, budget, and cost management
+- Cost management tools
+  - AWS Cost Explorer
+    - high level view
+  - AWS Cost and Usage Reports
+    - cost by the hour, day, product, tags etc
+    - super granular data
+  - AWS Budgets
+    - set custom budgets
+    - alerts based on budget
+  - AWS Organizations
+    - consolidated billing
+  - AWS Control Tower
+  - AWS Quicksight
+  - AWS Auto Scaling
+  - AWS Trusted Advisor
+  - AWS Data Lifecycle Manager
+  - AWS Backup
+  - Amazon S3
+- Data migration and transfer
+  - AWS DataSync
+  - Snow Family
+  - AWS Transfer Family
+  - AWS Storage Gateway
+  - AWS CloudFront
+  - AWS Direct Connect
+- AWS Billing Conductor
+  - Showback and chargeback
 #### 4.3 Identify AWS technical resources and AWS support options
+- AWS Support options
+  - AWS Enterprise Support
+    - 24/7
+    - Technical Account Manager
+  - AWS Developer Support
+  - AWS Enterprise on-Ramp Support
+  - AWS Basic Support
+  - AWS Business Support
+- Self-guided support options
+  - AWS Documentation
+  - AWS re:Post
+  - AWS white papers
+  - AWS Blogs
