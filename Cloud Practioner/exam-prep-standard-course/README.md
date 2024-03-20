@@ -13,6 +13,15 @@ Completed:
 - [IAM Identities (users, user groups, and roles)](https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html)
 - [What is IAM Identity Center?](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html)
 - [What is IAM?](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+- [Compute services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html)
+- [Database services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html)
+- [Networking and content delivery services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/networking-services.html)
+- [Storage services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html)
+- [Analytics services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html)
+- [Machine Learning Concepts](https://docs.aws.amazon.com/machine-learning/latest/dg/machine-learning-concepts.html)
+- []()
+- []()
+- []()
 - []()
 
 ## Notes
@@ -275,14 +284,357 @@ Completed:
 
 ### Domain 3: Cloud Technology and Services
 #### 3.1 Define methods of deploying and operating in the AWS Cloud
+- Deployment and operating in AWS
+  - Programmatic access
+  - AWS CLI
+  - AWS Management Console
+  - Infrastructure as Code
+- Deployment models
+  - Cloud native
+  - hybrid
+  - on-premises
+- AWS Public vs Private
+  - AWS public is defined by the network connected
+  - AWS public service is one that sits in a public zone and connected to the public internet
+  - AWS private service is one that sits in a private zone and is not connected to the public internet
+- Understand connectivity types
+  - How they work
+  - Common applications of use
+  
 #### 3.2 Define the AWS Global Infrastructure
-#### 3.3 Identify AWS Compute services
-#### 3.4 Identify AWS database services
-#### 3.5 Identify AWS network services
-#### 3.6 Identify AWS storage
-#### 3.7 Identify AWS artificial intelligence and machine learning services and analytics services
-#### 3.8 Identify services from other in scope of AWS service categories
+- Understand
+  - Availability Zones
+  - Regions
+  - Edge locations
+- Resilitent services
+  - Globally Resilient
+    - IAM, CloudFront, Route 53
+  - Region resilitient
+    - Spread across a region
+    - EFS, Batch
+  - Single AZ resilient
+    - Only in one AZ
+    - EBS, EC2
+- CloudFront & Global Accelerator
+  - CloudFront
+    - CDN
+    - Edge locations
+  - Global Accelerator
+    - Improves performance for apps
+    - HTTP uses cases for static IP
+    - Fast regional failover
+- Models for Cloud
+  - Iaas
+  - Paas
+  - Saas
+  - Daas
 
+#### 3.3 Identify AWS Compute services
+- Amazon EC2
+  - Iaas product
+  - Virtualization as a service
+  - Availability Zone resilitent
+    - Hosts sits in an AZ
+  - Instance Store
+    - Temp storage
+  - EBS
+    - Volumes of persistent storage
+    - Availability Zone resilitent
+  - Instance types/categories
+    - T3 - General Purpose
+    - C5 - Compute Optimized
+      - High performance computing (gaming)
+    - R5a - Memory Optimized
+      - Processing large datasets
+    - D2 - storage Optimized
+    - F1 - Accelerated Computing
+      - Hardware intensive like high GPU
+    - AMI
+      - Amazon Machine Image
+  - Metadata
+    - ID
+    - public info
+    - http://169.254.169.254/latest/meta-data/
+- Container computing
+  - Amazon Elastic Container Service (ECS)
+    - Container management service
+    - Continer orchestration service
+- AWS Lambda
+  - Function as a service
+  - Accepts functions
+  - Event-driven
+  - Serverless
+#### 3.4 Identify AWS database services
+- Amazon RDS
+  - DBaaS = Database as a Service
+  - Managed databases
+  - Supports
+    - MySQL
+    - PostgreSQL
+    - MariaDB
+    - Oracle
+    - SQL Server
+    - Amazon Aurora
+  - Multi-AZ
+  - Access is controlled through SecurityGroups
+  - Ability to configure a standby instance in a different AZ
+  - Read replicas in another AZ by option
+- Aurora
+  - Cluster architecture
+  - Single primary instance + 1 or more read replicas
+  - Multi-AZ
+- Aurora Global
+  - REplication over regions
+  - Read replicas in different regions
+- DynamoDB
+  - NoSQL
+  - Managed service
+  - Sits in the public network Zone
+  - Auto-scaling
+  - Global tables for additional resiliency
+  - latency senstive applications
+- Redshift
+  - Data warehousing
+  - Column-based
+  - Online analytical processing (OLAP)
+  - Amazon S3
+  - cluster architecture
+
+- In-memory databases
+  - ElastiCache
+    - managed in-memory cache
+    - Performance for reads
+    - redis and memcacheD
+    - Store session states
+  - DynamoDB Accelerator (DAX)
+    - In-memory cache for DynamoDB
+    - Access in milliseconds
+    - Eventually consistent reads
+
+- DB Migration
+  - AWS Snow family
+    - AWS SnowCone
+    - AWS Snowball
+    - AWS Snowmobile
+  - AWS Database Migration Service (DMS)
+    - Tool to help migration with zero downtime
+      - replicate data
+      - connect to source and target
+      - monitor
+      - switch when ready
+  - AWS Schema Conversion Tool (SCT)
+  - AWS DataSync
+    - Simple and fast to move data online
+    - manual tasks related to data transfers are handled by DataSync
+    - DataSync can be used to transfer data between on-premises storage and AWS
+
+- Database understanding
+  - Use cases and scenarios
+  - Advantages of managed services
+  - Capabilities, features and tools
+
+#### 3.5 Identify AWS network services
+- Amazon VPC
+  - Control access to your resources
+  - your own virtual private network
+  - one region in one account
+  - Regional availability
+  - Two types of VPCs
+    - Default
+      - 1 CIDR range
+    - Custom
+      - your responsible for all configurations
+      - define your own CIDR range
+  - Every VPC has a router to route traffic
+    - control access with Route Tables
+  - Internet Gateway
+    - 1 per VPC
+    - REgional resilitant service
+    - Sits between VPC and AWS Public zone
+    - Allows traffic to and from the internet
+  - NACL
+    - Traffic control at the subnet boundary
+    - Only sees traffic one way
+    - Allow inbound so must create outbound rule
+  - Security Groups
+    - Traffic control at the instance level
+    - Stateful
+    - Inbound and outbound rules
+  - NAT (Network Address Translation)
+    - process of giving a private resource outgoing access to the internet
+    - Switches private IP to public IP
+  - VPC Peering
+    - Connects two VPCs
+    - No transitive peering
+    - No overlapping CIDR blocks
+  - Endpoints
+    - Connects VPC to AWS services
+- Amazon Route 53
+  - Domain Name System (DNS)
+  - Register domains and host zones
+  - Routing policies
+
+#### 3.6 Identify AWS storage
+- Understand what is cloud storage
+  - pay as you go and use storage
+  - scalable
+- Types of cloud storage
+  - Object storage
+    - S3
+      - every aws region
+      - public service
+      - replicated across AZs auto
+      - unlimited data
+      - 5TB max file size
+      - Versioning will allow object restoration
+    - Glacier
+  - File Storage
+    - EFS
+      - Elastic File System
+      - scaling and self healing properties
+      - Regional resilitent
+      - development enviroments, media stores, content management systems
+      - Can be shared across AZs
+      - Linux is a keywork (cannot be used on windows)
+    - **Luster**?
+      - Large scale computing
+  - Block storage
+    - Elastic Bloc Storage (EBS)
+      - Ultra low latency
+      - highly resilient
+      - Persistant storage
+      - can boot from an EBS volume
+      - Volume types
+        - General Purpose SSD
+        - Provisioned IOPS SSD
+        - Throughput Optimized HDD
+        - Cold HDD
+        - Magnetic
+        - EBS Snapshots
+          - Backups
+          - Incremental
+          - Encrypted
+          - Can be shared
+          - Can be copied to another region
+  - Storage Gateway
+    - Hybrid cloud storage
+    - Connects on-premises software appliance with cloud-based storage
+    - File Gateway
+      - NFS and SMB
+      - Store files as objects in S3
+    - Volume Gateway
+      - iSCSI
+      - Store volumes as EBS snapshots
+    - Tape Gateway
+      - VTL
+      - Store tapes as objects in S3
+
+- Backup and Recovery
+  - Amazon S3
+    - Storage classes
+    - lifecycle management
+  - AWS Backups
+    - helps centralize and automate backups
+
+#### 3.7 Identify AWS artificial intelligence and machine learning services and analytics services
+- Understand
+  - What is Machine Learning?
+  - What is Artificial Intelligence?
+  - What is Data Analytics?
+- AI Services
+  - Translate
+  - Polly
+  - Lex
+  - Comprehend
+  - Forecast
+  - CodeGuru
+  - Rekognition
+- ML Services
+  - SageMaker
+  - CodeWhisperer
+- ML frameworks and infrastructure
+  - TensorFlow
+  - PyTorch
+  - Apache MXNet
+- Can be based on data stored on AWS, S3 specifically mentioned
+- Analytic Services
+  - Athena
+    - Interactive query service
+    - analyze data in S3
+    - supports many data formats
+  - Macie
+    - Security service
+    - Data discovery, classify, and protect sensitive data stored in S3
+    - Can analyze cloudtrail logs
+  - Redshift
+    - Column-based db engine for analytical workloads
+    - OLAP
+  - Kinesis
+    - Process and analyze streaming data
+    - Real-time is a keyword
+    - Fully-managed service
+    - scalable
+  - Glue
+    - Serverless data intergation service to discover, prepare, move, and integrate data
+    - visually create and run workflow jobs
+  - QuickSight
+    - Business intelligence service
+    - fully managed
+    - interactive dashboards with ML insights
+  - EMR
+    - Service that helps to run big data frameworks to process vast amounts of data
+#### 3.8 Identify services from other in scope of AWS service categories
+- Understand
+  - Monitoring and Availability services
+  - Best practices
+    - monitoring
+    - review
+    - evolve
+    - optimize overtime
+  - Continous improvement
+    - CloudWatch
+      - use alarms to trigger actions
+    - CloudTrail
+    - X-Ray
+- **Application Integration services**
+  - EventBridge
+  - SNS -> pub/sub messaging
+    - public AWS service
+    - 
+  - SQS -> short and long polling -> queue types
+    - decoupling keyword
+  - CloudWatch
+    - Use alarms to trigger actions like auto-scaling
+  - EC2 Auto Scaling
+- **Business Application Services**
+  - AWS Connect
+  - AWS Simple Email Service (SES)
+    - Need the email to come from a custom domain
+- **Customer engagment services**
+  - AWS Activate
+  - AWS IQ
+  - AWS Managed Services (MS)
+  - AWS Support
+- **Developer Services/Tools**
+  - AWS AppConfig
+  - AWS CodePipeline
+  - AWS CodeCommit
+  - AWS CodeArtifact
+  - AWS CodeBuild
+  - AWS CodeStar
+  - AWS X-Ray
+  - AWS Cloud9
+  - AWS Cloud Shell
+- **End-User computing services**
+  - AWS AppStream 2.0
+  - AWS WorkSpaces
+  - AWS WorkSpaces Web
+- **Frontend web and mobile services**
+  - AWS Amplify
+  - AWS AppSync
+- **IoT services**
+  - AWS IoT Core
+  - AWS IoT Greengrass
 
 ### Domain 4: Billing, Pricing, and Support
 #### 4.1 Compare and contrast the various pricing models for AWS
