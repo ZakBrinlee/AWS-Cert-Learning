@@ -1,6 +1,7 @@
 # [AWS Cloud Practitioner Essentials](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials)
 
-Started: March 16, 2023
+Started: March 16th, 2024
+Completed: March 17th, 2024
 
 ## Top Notes
 - Container: provide you with a standard way to package your application's code and dependencies into a single object.

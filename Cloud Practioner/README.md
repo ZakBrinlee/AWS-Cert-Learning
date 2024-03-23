@@ -6,13 +6,14 @@
   - ### [X] AWS Cloud Practitioner Essentials
   - ### [X] AWS Cloud Quest: Cloud Practitioner
   - ### [X] Exam Prep Standard Course: AWS Certified Cloud Practitioner
-  - ### [ ] Exam Prep Official Pretest: AWS Certified Cloud Practitioner
+  - ### [X] Exam Prep Official Pretest: AWS Certified Cloud Practitioner
+  - ### [ ] AWS Technical Essentials
   - ### [ ] Exam Prep Enhanced Course: AWS Certified Cloud Practitioner
   - ### [ ] AWS Escape Room: Exam Prep for AWS Certified Cloud Practitioner
   - ### [ ] Exam Prep Official Practice Exam: AWS Certified Cloud Practitioner
 
 ## Links
-- []()
+- [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
 - []()
 - []()
 
