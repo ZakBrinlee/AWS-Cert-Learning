@@ -1,15 +1,11 @@
 # [Exam Prep Enhanced Course: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/16485/exam-prep-enhanced-course-aws-certified-cloud-practitioner-clf-c02-english)
 
 Started: March 27rd, 2024
-
-## Top Notes
+Completed: March 28th, 2024
 
 ## Labs
 - Exercise 1: Exploring AWS Lambda and Amazon EventBridge
   - In this lab exercise, you will create an AWS Lambda function that will monitor an Amazon Elastic Compute Cloud (Amazon EC2) instance. You will then create an Amazon EventBridge rule that invokes the Lambda function when an EC2 instance is launched. Finally, you will launch an EC2 instance to confirm that your Lambda function is invoked when the instance state changes to running.
-
-## Links
-- []()
 
 ### Cloud Concepts
 #### Define the benefits of the AWS Cloud
@@ -263,43 +259,305 @@ Started: March 27rd, 2024
 
 
 #### Identify AWS compute resources
-- 
-- 
+- EC2
+  - Virtualization as a service
+  - Default aws compute service
+  - Instances are isolated even when using a shared host
+  - **Instance store**
+    - temp storage for EC2 instances
+- EBS
+  - Elastic Block Store
+  - Persistent storage
+  - Can be attached to EC2 instances
+  - AZ resilient
+
+- Amazon Elastic Container Service (ECS)
+  - One OS per system instead of Hypervisor
+  - Container management service
+  - Docker containers
+  - ECS is a container orchestration service
+
+- AWS Lambda
+  - Function as a Service
+  - Accepts functions
+  - event driven
+  - Serverless
 
 #### Identify AWS database resources
-- 
-- 
+- Amazon RDS
+  - single AZ
+  - DBaaS
+  - managed service
+  - Supports
+    - MySQL
+    - PostgreSQL
+    - MariaDB
+    - Oracle
+    - SQL Server
+  - Suggested to create a stand-by instance in another AZ
+  - 
+
+- Amazon Auroa
+  - Shared storage cluser of instances
+  - Primary and Read Replicas
+- Auroa Serverless
+  - No need to manage DB
+  - Scales automatically
+- Auroa Global DB
+  - Multi-region
+  - Global replication
+    - occurs at the storage layer
+
+- Amazon DynamoDB
+  - Public service in the public network zone
+  - Highly resilient across multiple AZs
+
+- In memory DBs
+  - AWS ElastiCache
+    - Managed in-memory cache
+    - Performance for reads
+    - Redis and memcacheD
+    - Store session states
+    - **Redis**
+  - AWS DynamoDB Accelerator (DAX)
+    - In-memory cache for DynamoDB
+    - Performance for reads
+    - access in ms
+    - eventually consistent reads
+
+- Amazon Redshift
+  - Data warehousing petabyte scale
+  - Column-based
+  - OLAP (great for transactions and query)
+  - analytical query
+  - Amazon S3
 
 #### Identify AWS network resources
-- 
-- 
+- Amazon VPC
+  - Helps to control access to your AWS resources
+  - Virtual private networks
+  - Has a VPC router by default
+  - Has an **Internet Gateway** by default
+  - Subnets
+    - Logical division of the VPC
+    - Can be public or private
+  - Two types of VPC
+    - Default
+      - comes with 1 default CIDR range
+        - Classless Inter-Domain Routing (CIDR) is an IP address allocation method
+    - Custom (configured by customer)
+
+- Gateway Endpoints
+  - targets specific IP routes in an Amazon VPC route table, in the form of a prefix-list, used for traffic destined to Amazon DynamoDB or Amazon Simple Storage Service (Amazon S3)
+- Interface Endpoints
+  - enable connectivity to services over AWS PrivateLink
+
+- Amazon Route 53
+  - DNS service
+  - Register domains and host zones
+  - Routing policies
 
 #### Identify AWS storage resources
-- 
-- 
+- Storage capabilities in a pay-as-you-go model
+- AWS Storage options
+  - **Object**
+    - Amazon S3
+      - Global resilient
+      - Public service in the public zone
+      - Unlimited amount of data storage
+      - Object storage
+      - Scalable
+      - Durable
+      - Secure
+      - S3 Glacier
+        - Long-term storage
+        - Low cost
+        - Retrieval time
+      - S3 Glacier Deep Archive
+        - Long-term storage
+        - Lowest cost
+        - Retrieval time
+  - **File**
+    - Amazon Elastic File System
+      - Network based file storage
+      - Great for repositories and directory style storage
+      - **Linux** is a keyword for EFS
+    - Lustre
+      - High performance file system
+      - Parallel file system
+      - High performance computing
+      - High level of distribution
+  - **Block**
+    - Amazon Elastic Block Store
+      - Persistent storage
+      - Can be attached to EC2 instances
+      - AZ resilient
+      - Network attached storage
+  - AWS Storage Gateway
+    - virtual appliance to run on-premises
+    - connects to AWS storage services
+    - 3 types
+      - File Gateway
+        - NFS and SMB
+        - Stores objects in S3 with on-premise cache
+      - Volume Gateway
+        - block level access over network
+        - stored volumes
+      - Virtual Tape
+        - Virtual tape library
+        - Backup and archive into S3
+
+- Storage backup and recovery
+  - Amazon S3
+    - storage classes
+    - lifecycle management
+  - AWS Backups
+    - Centralized backup service
+    - fully managed service
 
 #### Identify AWS artificial intelligence and machine learning services and analytics services
-- 
-- 
+- Data analytic services
+  - Amazon Athena
+    - interactive query service
+    - SQL queries for S3
+    - pay per query
+  - Amazon Macie
+    - AWS Security service
+    - Discover, classify, and protect sensitive data stored in S3
+
+- Amazon Redshift
+  - Data warehousing petabyte scale
+  - OLAP
+- Amazon Kinesis
+  - Real-time data streaming
+  - Data analytics
+  - Data processing 
+- AWS Glue
+  - Serverless data intergration to discover, prepare, move and integrate data
+  - prepare, move and find data across data sources
+- Amazon QuickSight
+  - Business intelligence service
+  - Visualize data
+- Amazon EMR
+  - Service that helps to run big data frameworks to process and analyze large data sets
 
 #### Identify services from other in-scope AWS service categories
-- 
-- 
+- Monitoring Services
+  - Amazon CloudWatch
+    - Monitor AWS resources
+    - Collect and track metrics
+    - Set alarms
+    - Automatically react to changes
+ 
+- **Application Integration** services
+  - Amazon EventBridge
+  - Amazon Simple Notification Service (SNS)
+    - pub/sub messaging
+    - requires network connection
+    - push notifications
+  - Amazon Simple Queue Service (SQS)
+    - provides full manage message queues
+    - async way for applications to communicate
+    - short and long polling
+    - queue types
+      - Standard (can be delivered more than once)
+      - FIFO (First In First Out)
+  - Amazon CloudWatch
+  - Amazon EC2 Auto Scaling
+
+- **Business Application** services
+  - Amazon Connect
+    - omnichannel cloud contact center
+    - pay as you go
+    - personalized experiences for customers
+  - Amazon Simple Email Service (SES)
+    - email service
+    - send and receive email
+    - email marketing
+    - email notifications
+
+- **Customer Engagement** services
+  - AWS Activate
+  - AWS IQ
+  - AWS Managed Services
+    - AWS service to manage your cloud resources
+  - AWS Support
+
+- **Developer** services
+  - AWS AppConfig
+  - AWS CodePipeline
+  - AWS CodeCommit
+  - AWS CodeArtifact
+  - AWS CodeBuild
+  - AWS CodeStar
+  - AWS X-ray
+  - AWS Cloud9
+  - AWS Cloud Shell
+
+- **End user computing** services
+  - Amazon AppStream 2.0
+  - Amazon Workspaces
+  - Amazon Workspaces Web
+    - fully managed linux browser-based desktop
+
+- **Frontend web and mobile** services
+  - AWS Amplify
+    - build, ship and host full stack apps
+  - AWS AppSync 
+    - graphql service to combine resources
+
+- **IoT** services
+  - AWS IoT Core
+    - connect devices to the cloud
+    - secure communication
+    - device management
+  - AWS IoT Greengrass
+    - local compute, messaging, and data caching
 
 ### Billing, Pricing, and Support
-
-#### Introduction to Billing, Pricing, and Support
-- 
-- 
-
 #### Compare AWS pricing models
-- 
-- 
+- AWS Cost Optimization Services
+  - AWS Cost Explorer
+  - AWS Trusted Advisor
+  - AWS Budgets
+  - AWS Cost and Usage Report
+  - Reserved Instance Reporting
+
+- Achieving cost optimization
+  - Right-sizing of resources
+  - increasing elasticity
+  - Choose the right pricing model
+  - Match storage to usage
+  - Data transfer options
+  - measure, monitor and improve
+
+- Cost optimization best practices
+  - Define and enforce tags
+  - Define your account structure
+  - Define and use metrics
+  - Share ownership
+  - Create a Cloud Center of Excellence (CCoE)
 
 #### Understand resources for billing, budget, and cost management
-- 
-- 
+- AWS Cost Management Tools
+  - AWS Cost Explorer
+  - AWS Cost and Usage Report
+    - break down costs very granularly
+  - AWS Budgets
+    - set custom budgets
+    - track costs
+    - receive alerts
 
-- 
+- AWS Organizations benefits
+  - Consolidated billing
+- AWS Billing Conductor
+  - Show charges and chargeback
+  - Simplify billing and reporting with customizable pricing and cost visibility
+
 #### Identify AWS technical resources and AWS Support options
-- 
+- AWS Support Options
+  - AWS Enterprise Support
+  - AWS Developer Support
+  - AWS Enterprise on-Ramp support
+  - AWS Basic Support
+  - AWS Business Support
