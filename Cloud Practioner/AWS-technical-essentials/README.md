@@ -1,15 +1,11 @@
 # [AWS Technical Essentials](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/1851/aws-technical-essentials)
 
 Started: March 23rd, 2024
+Completed: March 29th, 2024
 
 ## Top Notes
 - Course builds an application to understand the concepts
   - Employee directory that stores images and information about fictional employees
-- 
-
-
-## Links
-- []()
 
 ### Project Application
 - AWS Services
@@ -24,8 +20,6 @@ Started: March 23rd, 2024
   - Scaling
   - Security
 - Notes
-
-
 
 ### Introduction to AWS
 - 3 cloud deployment models
@@ -168,6 +162,45 @@ Started: March 23rd, 2024
   - Will remember the inbound rule and allow the response
   - Rules are evaluated in order
 
-### AWS Databases on AWS
+### Databases on AWS
+- Hosting on EC2
+  - Customer still responsible for
+    - App optimization
+    - Scaling
+    - High Availability
+    - Database backups
+    - DB s/w patches
+    - DB s/w installs
+- Managed DB
+  - Customer responsible
+    - App optimization
+
+#### Amazon RDS
+- Relational Database Service
+  - Managed service that makes it easy to set up, operate, and scale a relational database in the cloud
+  - Supports multiple database engines
+    - MySQL
+    - PostgreSQL
+    - MariaDB
+    - Oracle
+    - SQL Server
+    - Amazon Aurora
+      - ability to scale to petabytes
+  - 
+
+- DB instances are placed in a private subnet in 1AZ
+  - Ability to configure data replication in multiple AZs
+  - Automated backups
+
+#### Amazon DynamoDB
+- Serverless database
+- NoSQL
+- fully encrypted at rest
+- Purpose built for applications that need consistent, single-digit millisecond latency at any scale
+- All your data is stored on SSDs and is automatically replicated across multiple Availability Zones in a Region, providing built-in high availability and data durability.
+- Create database tables that can store and retrieve any amount of data and serve any level of request traffic. 
+- Scale up or scale down your tables' throughput capacity without downtime or performance degradation. 
+- Monitor resource usage and performance metrics using the AWS Management Console
+
 ### Monitoring, Load Balancing, and Scaling
 ### What's New

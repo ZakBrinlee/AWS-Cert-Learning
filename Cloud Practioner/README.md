@@ -7,7 +7,7 @@
   - ### [X] AWS Cloud Quest: Cloud Practitioner
   - ### [X] Exam Prep Standard Course: AWS Certified Cloud Practitioner
   - ### [X] Exam Prep Official Pretest: AWS Certified Cloud Practitioner
-  - ### [ ] AWS Technical Essentials
+  - ### [X] AWS Technical Essentials (Modules 1, 2, 3, 5, and 6)
   - ### [X] Exam Prep Enhanced Course: AWS Certified Cloud Practitioner
   - ### [ ] AWS Escape Room: Exam Prep for AWS Certified Cloud Practitioner
   - ### [ ] Exam Prep Official Practice Exam: AWS Certified Cloud Practitioner
