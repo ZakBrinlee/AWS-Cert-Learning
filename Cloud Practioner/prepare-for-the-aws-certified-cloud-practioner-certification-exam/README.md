@@ -29,7 +29,7 @@ Completed: March 15, 2023
 - Very broad understanding
 - Changes between CLF-01 vs CLF-02
   - Domain names and percentages
-  - Migration and buissiness application have been added into the exam content
+  - Migration and business application have been added into the exam content
   - Increase in breadth, but not as much depth
   - Domain 1: AWS Cloud Adoption Framework
   - Domain 3: AI, ML and data analytics services
@@ -50,7 +50,7 @@ Completed: March 15, 2023
 - Elastic Beanstalk: Automatically "grows" your application
 - Elastic Load Balancing: Balances incoming traffic loads
 - Lambda: Runs serverless code
-- Lightsail: Preconfigured virtual servers
+- Lightsail: Pre-configured virtual servers
 ### Storage
 - S3: Object storage
 - Elastic Block Store: Block storage for EC2

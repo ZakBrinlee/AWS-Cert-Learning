@@ -4,7 +4,7 @@
 - Elastic Beanstalk: Automatically "grows" your application
 - Elastic Load Balancing: Balances incoming traffic loads
 - Lambda: Runs serverless code
-- Lightsail: Preconfigured virtual servers
+- Lightsail: Pre-configured virtual servers
 ### Storage
 - S3: Object storage
 - Elastic Block Store: Block storage for EC2
@@ -48,7 +48,7 @@
   - Runs code in response to an event
   - runs and scales automatically
 - Lightsail
-  - Perconfigured and ready to use OS, web apps, and dev stacks
+  - Pre-configured and ready to use OS, web apps, and dev stacks
   - Simple and easy to use applications
 - Deploying and operating in AWS
   - AWS Management Console
@@ -69,9 +69,9 @@
     - Store and retrieve any amount of data of any type of almost any size
 - Elastic Block Store
   - Adds extra block storage to EC2 instances
-  - Raw, unformmated block device attached
-  - Use as file systems or hardrives
-  - External hardrives for virtual servers
+  - Raw, unformatted block device attached
+  - Use as file systems or hard drives
+  - External hard drives for virtual servers
 - Snowball
   - Data migration tool
   - Hardware solution to transfer data to AWS
@@ -81,8 +81,8 @@
   - Files Gateway
     - S3 files
   - Volume Gateway
-    - Blocks like virtual harddrives
-    - Stored and cached colume modes
+    - Blocks like virtual hard drives
+    - Stored and cached column modes
   - Tape Gateway
     - Uses existing tape based backup infrastructure to backup to virtual tapes
     - Virtual tape library

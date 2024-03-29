@@ -20,10 +20,8 @@ Course coverage:
 - Define the core billing, account management, and pricing models
 - Explain how to use pricing tools to make cost-effective choices for AWS services
 
-
 ## Links
 - [AWS Customer Compliance Center](https://aws.amazon.com/compliance/customer-center/)
-- []()
 
 ### Introduction to Amazon Web Services
 - Basic computing revolves around a client/server model
@@ -37,7 +35,7 @@ Course coverage:
 ### Compute in the Cloud
 #### EC2 Intro
   - highly flexible, cost effective, and quick
-  - Multitenancy: multiple customers share the same physical hardware (but are isolated from each other)
+  - Multi-tenancy: multiple customers share the same physical hardware (but are isolated from each other)
     - Hypervisor: software that runs virtual machines and manages the physical hardware
   - Configurations
     - OS (windows, linux)
@@ -87,7 +85,7 @@ Course coverage:
   - Increase the amount of instances being used
 
 #### Directing Traffic w Elastic Load Balancing
-- Acts as a host at a resturant to direct customers to the right server
+- Acts as a host at a restaurant to direct customers to the right server
 - Load Balancer: distributes incoming application traffic across multiple targets, such as EC2 instances, in multiple availability zones
 - Elastic Load Balancing
   - regional construct (runs at region level)
@@ -142,7 +140,7 @@ Course coverage:
 #### Edge Locations
 - Amazon CloudFront to store cached copies of your content closer to customer for faster delivery
 - Route 53: DNS service that routes end users to the closest edge location
-- AWS Outpost: fully managed service that extends AWS infrastructure, AWS services, APIs, and tools to virtually any datacenter, co-location space, or on-premises facility for a truly consistent hybrid experience
+- AWS Outpost: fully managed service that extends AWS infrastructure, AWS services, APIs, and tools to virtually any data-center, co-location space, or on-premises facility for a truly consistent hybrid experience
 - Edge Locations
   - CDN (Content Delivery Network) endpoints for CloudFront
   - Used for caching content
@@ -162,7 +160,7 @@ Course coverage:
     - Automatic scaling
     - Application health monitoring
 - AWS CloudFormation
-  - Infrastructor as code by building an enviroment from a template
+  - Infrastructure as code by building an environment from a template
   - Template is a JSON or YAML file that describes the resources you want to provision
   - Stack: collection of resources that are created and managed as a single unit
 
@@ -203,7 +201,7 @@ Course coverage:
   - Temporary storage
   - Data is lost when the instance is stopped or terminated
   - Good for temporary storage
-- Amazon Elastic Block Store (EBS) virtual hardrives
+- Amazon Elastic Block Store (EBS) virtual hard drives
   - Persistent storage
   - Data is not lost when the instance is stopped or terminated
   - Good for long term storage
@@ -216,7 +214,7 @@ Course coverage:
   - Consists of data, metadata, and a key
 - S3 Buckets
   - A container for objects
-  - Data is stored across 3 buckets for redundency
+  - Data is stored across 3 buckets for redundancy
 - S3 storage classes
   - Two factors when determining
     - How often you plan to retrieve your data
@@ -234,7 +232,7 @@ Course coverage:
 - Comparing EBS and S3
   - EBS
     - HDD options
-    - solidate state
+    - solid state
     - survives EC2 termination
     - Block storage
     - 
@@ -247,7 +245,7 @@ Course coverage:
     - Serverless
 
 #### Amazon Elastic File System
-- Muliple instances of EC2 can access the same file system
+- Multiple instances of EC2 can access the same file system
 - Linux file system
 - Regional resource
 - Automatically scales
@@ -293,13 +291,13 @@ Course coverage:
 #### Amazon Database Migration Service
 - Ability to migrate any database to AWS
 - Source DB remains operational during migration
-- Hetrogenous migrations
+- Heterogenous migrations
   - Schema, Data types and code is different between source and destination
   - 2 step process
     - Use the AWS Schema conversion tool
     - Use DMS to migrate the data
 - Ability to use to copy DB for testing/development
-- Continous replication of data is another use
+- Continuous replication of data is another use
 
 #### Additional Database Services
 - AWS DocumentDB: Document database service that supports MongoDb
@@ -400,7 +398,7 @@ Course coverage:
     - Security assessment service
 - Amazon GuardDuty
   - Threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts and workloads
-  - Indepentent of the resources
+  - Independent of the resources
 
 ### Monitoring and Analytics
 - Monitoring: Observing systems, collecting metrics and then using data to make decisions
@@ -555,7 +553,7 @@ Course coverage:
     - Drop and shop
     - Move to a different product
   - Refactoring/re-architecting
-    - involves reimagining how an application is architected and developed by using cloud-native features.
+    - involves re-imagining how an application is architected and developed by using cloud-native features.
   - Retaining
     - Keep the application as is
     - Usually just for business critical applications
@@ -574,7 +572,7 @@ Course coverage:
 - AWS Snowmobile
   - Exabyte-scale data transfer service used to move extremely large amounts of data to AWS
   - 100 PB per Snowmobile
-  - 45-foot long ruggedized shipping container
+  - 45-foot long shipping container
 
 #### Innovation with AWS
 - Consider some of the paths you might explore in the future as you continue on your cloud journey.

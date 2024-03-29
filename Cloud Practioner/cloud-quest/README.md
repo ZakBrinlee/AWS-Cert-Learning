@@ -1,4 +1,4 @@
-# [AWS Cloud Quest: Cloud Practioner](https://explore.skillbuilder.aws/learn/course/11458/aws-cloud-quest-cloud-practitioner)
+# [AWS Cloud Quest: Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/11458/aws-cloud-quest-cloud-practitioner)
 Started: March 17th, 2023
 Started: March 18th, 2023
 
@@ -29,8 +29,8 @@ https://calculator.aws/#/estimate?id=ffb1a100465ad697a6b6a9c23ae7f543de9a1f83
         - Default **deny** all **inbound** traffic
         - Default **allow** all **outbound** traffic
       - stateful
-      - All rules are evaulated before deciding to allow traffic
-      - Can be chained together to strickly control the access of traffic
+      - All rules are evaluated before deciding to allow traffic
+      - Can be chained together to strictly control the access of traffic
     - Network ACLs
       -  Multiple subnets can share the same ACL
       -  Firewall of a subnet boundary
@@ -67,7 +67,7 @@ https://calculator.aws/#/estimate?id=ffb1a100465ad697a6b6a9c23ae7f543de9a1f83
   - Automated backups
   - Database snapshots are full copies of your db. only for restore use
   - Automatic failover with standby DB instances
-- DB paramater groups acts as a container for the configuration of a dB
+- DB parameter groups acts as a container for the configuration of a dB
 
 
 #### First NoSQL Database
@@ -87,7 +87,7 @@ https://calculator.aws/#/estimate?id=ffb1a100465ad697a6b6a9c23ae7f543de9a1f83
   - On-Demand Capacity
     - Automatically scales up/down based on traffic
   - Encryption at rest
-- Massive parrellel, high performance data processing
+- Massive parallel, high performance data processing
 - Table Terms
   - Items
     - A collection of attributes
@@ -231,7 +231,7 @@ https://calculator.aws/#/estimate?id=ffb1a100465ad697a6b6a9c23ae7f543de9a1f83
     - Low latency
   - Gateway Load Balancer
     - Layer 3 Gateway
-    - Layer 4 load balaner
+    - Layer 4 load balancer
     - IP
     - Analytics
   - Classic Load Balancer

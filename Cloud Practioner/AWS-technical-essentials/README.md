@@ -7,6 +7,10 @@ Completed: March 29th, 2024
 - Course builds an application to understand the concepts
   - Employee directory that stores images and information about fictional employees
 
+### Links
+- [Elastic Load Balancer features](https://aws.amazon.com/elasticloadbalancing/features/#Product_comparisons)
+- [How AWS WAF works](https://docs.aws.amazon.com/waf/latest/developerguide/how-aws-waf-works.html)
+
 ### Project Application
 - AWS Services
   - Networking
@@ -49,10 +53,10 @@ Completed: March 29th, 2024
 - Protecting Root User
   - Enable MFA
 - IAM Roles
-  - No static login creds
+  - No static login credentials
   - IAM roles are assumed programmatically
   - Temporary credentials for configurable amount of time
-  - Creds expire and rotated
+  - credentials expire and rotated
 - 
 ### AWS Compute
 - Virtual Machines
@@ -78,7 +82,7 @@ Completed: March 29th, 2024
     - Rebooting
 #### Container Services
 - Container Orchestration
-  - Starting, stopping, restarting, monitoring and more for a cluser of EC2 instances
+  - Starting, stopping, restarting, monitoring and more for a cluster of EC2 instances
 - Services
   - Amazon Elastic Container Service (ECS)
     - end-to-end container orchestration service that helps you spin up new containers
@@ -130,7 +134,7 @@ Completed: March 29th, 2024
     - A container image – This is compatible with the Open Container Initiative (OCI) specification. You add your function code and dependencies to the image. You must also include the operating system and a Lambda runtime.
   - Runtime
     - The programming language that you choose to write your Lambda function
-      - Runtime options: Node.js, Python, Ruby, Java, Go, .NET Core, and custom runtimes
+      - Runtime options: Node.js, Python, Ruby, Java, Go, .NET Core, and custom runtime
   - Lambda function handler
     - The method in your code that processes events
       - Runs when the function is invoked
@@ -203,4 +207,120 @@ Completed: March 29th, 2024
 - Monitor resource usage and performance metrics using the AWS Management Console
 
 ### Monitoring, Load Balancing, and Scaling
-### What's New
+#### Monitoring
+- Metrics that are monitored over time are called "statistics"
+- CloudWatch
+  - a way to collect and analyze data about the operational health and usage of your resources
+- Many benefits from monitoring
+  - Respond proactively to issues
+  - Improve performance and reliability
+  - Recognize security threats and events
+  - Make data-driven decisions
+  - Create cost-effective solutions
+
+#### Amazon CloudWatch
+- Monitor
+  - Collect and track metrics
+  - Collect and monitor log files
+  - Set alarms
+
+- Possibilities of CW
+  - Detect anomalous behavior in your environments.
+  - Set alarms to alert you when something is not right.
+  - Visualize logs and metrics with the AWS Management Console.
+  - Take automated actions like scaling.
+  - Troubleshoot issues.
+  - Discover insights to keep your applications healthy.
+
+- CloudWatch Alarms
+  - 3 states an alarm can be in
+    - ALARM
+    - OK
+    - INSUFFICIENT_DATA
+
+- CloudWatch Logs
+  - Monitor, store, and access log files from EC2 instances, CloudTrail, and other sources
+  - Ability to query log data
+
+#### Traffic Routing with Elastic Load Balancing
+- Load Balancers
+  - Distributes tasks across a set of resources
+  - Even though ELB auto scales, you still need to ensure the app layer can scale with it
+- Types of Load Balancers
+  - **Application Load Balancer**
+    - Layer 7
+    - HTTP/HTTPS
+      - Need to configure 3 components
+        - Listener
+        - Target Group
+          - Type of backend resources
+        - Rule
+          - Defines how the requests are routed
+          - can be path based routing
+    - User Authorization
+    - Rich Metrics and logging
+    - Redirects
+    - Fixed Responses
+  - **Network Load Balancer**
+    - Layer 4
+    - TCP/UDP/TLS
+    - TCP and User Datagram Protocol (UDP) connection based
+    - Source IP preservation
+    - Low latency
+    - routing connections from a target in the target group based on IP protocol data
+  - **Gateway Load Balancer**
+    - Layer 3 and 4
+    - IP
+    - Health checks
+    - GLB endpoints
+    - Higher availability for third-party virtual appliances
+    - helps you to deploy, scale, and manage your third-party appliances, such as firewalls, intrusion detection and prevention systems, and deep packet inspection systems.
+
+- Key Features
+  - **Hybrid Mode**
+    - Because ELB can load balance to IP addresses, it can work in a hybrid mode, which means it also load balances to on-premises servers.
+  - **High Availability**
+    - ELB is highly available. The only option you must ensure is that the load balancer's targets are deployed across multiple Availability Zones.
+  - **Scalability**
+    - In terms of scalability, ELB automatically scales to meet the demand of the incoming traffic. It handles the incoming traffic and sends it to your backend application.
+  - Health Checks
+    - ELB performs health checks on the targets to ensure that only healthy targets receive traffic.
+
+#### Amazon EC2 Auto Scaling
+- Key Features
+  - Auto scaling (duh)
+  - Scheduled scaling
+  - Fleet management
+  - Predictive scaling
+  - Purchase options
+
+- ELB with EC2 auto scaling
+  - Configuring EC2 auto scaling
+    - 3 main components
+      - Launch template or configuration
+        - which resources should be auto scaled?
+      - Scaling groups
+        - Where should the resources be deployed?
+      - Scaling policies
+        - When should the resources be added or removed?
+
+- Launch templates and configurations
+  - 3 ways to create a launch template
+    - Use an existing instance where all setting are already defined
+    - Create one from an already existing template or previous version of a launch template
+    - Create a template from scratch
+      - Params needing defined
+        - AMI ID
+        - Instance type
+        - Key pair
+        - Security group
+        - storage
+        - resource tags
+
+- Scaling policy types
+  - Simple scaling
+    - Use a cloudwatch alarm to trigger the scaling, very simple and straightforward
+  - Step scaling
+    - responds to additional alarms even when a scaling activity is already in progress
+  - Target tracking scaling
+    - If your application scales based on average CPU utilization, average network utilization (in or out), or request count, then this scaling policy type is the one to use.

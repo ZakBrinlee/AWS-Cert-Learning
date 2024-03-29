@@ -25,10 +25,10 @@ Completed: March 28th, 2024
   - High availability
     - means designing systems that are available and operational at all times
     - Designing for MINIMAL downtime
-  - Fault Tolernace
+  - Fault Tolerance
     - means designing systems that can continue to operate in the event of a failure
     - Designing for ZERO downtime
-  - Disater Recovery
+  - Diaster Recovery
     - Designing for systems to OPERATE THROUGH a disaster
 
 - Scaling
@@ -38,7 +38,7 @@ Completed: March 28th, 2024
     - Increase the **number** of instances
 
 #### Identify design principles of the AWS Cloud
-- Design Priciples
+- Design Principles
   - Stop Guessing capacity
   - Test systems at production scale
   - Automate architecture
@@ -48,7 +48,7 @@ Completed: March 28th, 2024
   - Run test
 
 - Architecture Framework Core Pillars
-  - **Operational Excellence** (design priciples)
+  - **Operational Excellence** (design principles)
     - Running and monitoring systems to deliver business value
       - Perform operations as code
       - Make frequent, small, reversible changes
@@ -88,10 +88,10 @@ Completed: March 28th, 2024
       - Use reserved capacity
       - Use the right pricing model
   - **Sustainability**
-    - Environment impacts with energy consumption and effeciency
+    - Environment impacts with energy consumption and efficiency
       - Understand your impact
       - Establish sustainability goals
-      - Maximaize utilization
+      - Maximize utilization
       - Anticipate and adopt new, more efficient hardware and software offerings
       - Use managed services
       - Reduce the downstream impact of your cloud workloads
@@ -101,10 +101,10 @@ Completed: March 28th, 2024
   - Identifies specific organizational capabilities for optimal cloud adoption
   - Can reduce the business risk through increase reliability and security
 
-- Cloud Adoption Stragies
+- Cloud Adoption Strategies
   - 7Rs to Cloud Migration
     - Retire
-      - decommisioning or shutting down a system
+      - decommissioning or shutting down a system
     - Retain
       - Not ready to migrate
     - Rehost
@@ -164,7 +164,7 @@ Completed: March 28th, 2024
 - AWS Audit Manager
 
 #### Identify AWS access management capabilities
-- Undertstand
+- Understand
   - Why do you need to control user access?
   - How to control access to your account?
   - What is an AWS account
@@ -176,7 +176,7 @@ Completed: March 28th, 2024
   - Policies
     - Managed
       - 
-    - Unmanaged
+    - Un-managed
       - 
   - Integration with AWS services
 
@@ -211,7 +211,7 @@ Completed: March 28th, 2024
   - Cloud
 
 - AWS public and private services
-  - AWS seperates services by the network zone they are in
+  - AWS separates services by the network zone they are in
     - Public
       - These services are accessible from the public internet
     - Private
@@ -298,7 +298,7 @@ Completed: March 28th, 2024
   - 
 
 - Amazon Auroa
-  - Shared storage cluser of instances
+  - Shared storage cluster of instances
   - Primary and Read Replicas
 - Auroa Serverless
   - No need to manage DB
@@ -433,7 +433,7 @@ Completed: March 28th, 2024
   - Data analytics
   - Data processing 
 - AWS Glue
-  - Serverless data intergration to discover, prepare, move and integrate data
+  - Serverless data integration to discover, prepare, move and integrate data
   - prepare, move and find data across data sources
 - Amazon QuickSight
   - Business intelligence service

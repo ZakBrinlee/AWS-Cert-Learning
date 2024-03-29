@@ -1,4 +1,4 @@
-# Prepare for the Cloud Practioner Exam
+# Prepare for the Cloud Practitioner Exam
 
 ## [X] [LinkedIn Learning Course](https://www.linkedin.com/learning/aws-certified-cloud-practitioner-clf-c01-cert-prep-1-cloud-concepts)
 ## [ ] [AWS Certification Prep Guide](https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1)
@@ -13,9 +13,18 @@
   - ### [ ] Exam Prep Official Practice Exam: AWS Certified Cloud Practitioner
 
 ## Links
+- [AWS Well-Architected Framework Whitepaper](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+- [Overview of Amazon Web Services Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html)
 - [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
-- []()
-- []()
+- [How AWS WAF works](https://docs.aws.amazon.com/waf/latest/developerguide/how-aws-waf-works.html)
+- [AWS Customer Compliance Center](https://aws.amazon.com/compliance/customer-center/)
+- [Compute services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html)
+- [Database services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html)
+- [Networking and content delivery services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/networking-services.html)
+- [Storage services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html)
+- [Analytics services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html)
+- [Machine Learning Concepts](https://docs.aws.amazon.com/machine-learning/latest/dg/machine-learning-concepts.html)
+
 
 ## Top Notes
 - 4 domains
@@ -44,7 +53,7 @@
 - Very broad understanding of services and applications
 - Changes between CLF-01 vs CLF-02
   - Domain names and percentages
-  - Migration and buissiness application have been added into the exam content
+  - Migration and business application have been added into the exam content
   - Increase in breadth, but not as much depth
   - Domain 1: AWS Cloud Adoption Framework
   - Domain 3: AI, ML and data analytics services
@@ -55,7 +64,7 @@
 - Elastic Beanstalk: Automatically "grows" your application
 - Elastic Load Balancing: Balances incoming traffic loads
 - Lambda: Runs serverless code
-- Lightsail: Preconfigured virtual servers
+- Lightsail: Pre-configured virtual servers
 ### Storage
 - S3: Object storage
 - Elastic Block Store: Block storage for EC2

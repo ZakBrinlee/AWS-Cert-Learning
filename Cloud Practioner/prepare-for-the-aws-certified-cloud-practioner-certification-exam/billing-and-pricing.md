@@ -10,7 +10,7 @@
 - Knowledge of AWS technical resources and AWS support options
 
 ### Prepare Your App
-- Billing and Cost Mangement Dashboard
+- Billing and Cost Management Dashboard
    - Estimate and plan your AWS Costs
    - Consolidated billing: simple accounting for multiple AWS accounts in one org
    - Alert when you're nearing usage thresholds
@@ -26,7 +26,7 @@
       - Pay to transfer data out of AWS
 - Consolidated Billing
   - One bill for all accounts and teams
-  - Independant account that can't use any other services
+  - Independent account that can't use any other services
 - Cost Calculators
   - Total Cost of Ownership (TCO) Calculator
     - Compare on-premises vs AWS
@@ -53,11 +53,11 @@
 - Developer
   - 29$ per month starting or 3% of monthly AWS usage
   - 1 primary contact to submit tech support requests
-  - SLA for 12 hours for inpaired and 24 hours for general guidance
+  - SLA for 12 hours for impaired and 24 hours for general guidance
 - Business
   - $100 a month or 10% of monthly AWS usage
   - Unlimited # of contacts can open unlimited support tickets
-  - Full access to AWS Trusted Advisor Cehcks
+  - Full access to AWS Trusted Advisor Checks
   - 24/7 phone, email, and chat support
   - Common 3rd party application integration support
   - 1 hour response time for impaired and 24 hours for general guidance
@@ -66,5 +66,5 @@
   - Short-term engagement with AWS Support for architectural and scaling guidance for Infrastructure Event Management
   - 24/7 phone, email, and chat support
   - Access to a pool of TAMS and Concierge Support team
-  - Access to buisness management reviews
+  - Access to business management reviews
   - 30 minute response time for business critical impacts

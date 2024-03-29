@@ -1,4 +1,4 @@
-# [Exam Prep Standard Course: AWS Certified Cloud Practioner](https://explore.skillbuilder.aws/learn/course/16434/exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english)
+# [Exam Prep Standard Course: AWS Certified Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/16434/exam-prep-standard-course-aws-certified-cloud-practitioner-clf-c02-english)
 Started: March 19, 2023
 Completed: March 19, 2023
 
@@ -49,12 +49,12 @@ Completed: March 19, 2023
 ### Domain 1: Cloud Concepts
 #### 1.1 Define the benefits of the AWS cloud
 - What AWS is:
-  - What is coud computing?
+  - What is cloud computing?
     - On demand self-service
     - access to the internet
     - resource pooling
     - rapid elasticity
-    - resourece usage monitored and billed
+    - resource usage monitored and billed
 - High availability
   - Means designing systems to be available 24/7, minimal downtime
   - System to response to failures
@@ -63,11 +63,11 @@ Completed: March 19, 2023
   - Means designing for zero downtime
   - System can continue to operate even if a component fails
   - Minimize and operate through failures
-- Distaster recovery
-  - Means designing for operating through a disater
+- Disaster recovery
+  - Means designing for operating through a diaster
   - System can recover from a disaster
   - Minimize downtime and data loss
-- Elasticicity
+- Elasticity
   - Means designing for scalability
   - System can scale up and down based on demand
   - using automation to scale on demand with auto scaling
@@ -77,7 +77,7 @@ Completed: March 19, 2023
     - Horizontal scaling
       - Increase the number of instances (t2.micro -> t2.micro 6x)
 
-#### 1.2 Identify design priciples of AWS cloud
+#### 1.2 Identify design principles of AWS cloud
 - AWS Well-Architected Framework
   - Design principles
     - Stop guessing your capacity needs
@@ -90,7 +90,7 @@ Completed: March 19, 2023
   - 6 Pillars
     - Operational Excellence
       - Perform operations as code
-      - Make frequent, small, resersible changes
+      - Make frequent, small, reversible changes
       - Refine operations procedures frequently
       - Anticipate failure
       - Learn from all operational failures
@@ -108,7 +108,7 @@ Completed: March 19, 2023
       - Scale horizontally to increase aggregate workload availability
       - Stop guessing capacity
       - Manage change in automation
-    - Performance Effency
+    - Performance Efficiency
       - Democratize advanced technologies
       - Go global in minutes
       - Use serverless architectures
@@ -124,7 +124,7 @@ Completed: March 19, 2023
       - Use managed services
       - Reduce the downstream impact of your cloud workloads
 
-#### 1.3 Understand the benefits and steategies for migration to the AWS Cloud
+#### 1.3 Understand the benefits and strategies for migration to the AWS Cloud
 - AWS Cloud Adoption Framework
   - Grouped into 6 perspectives
     - Business
@@ -135,14 +135,14 @@ Completed: March 19, 2023
     - Operations
   - Adoption Strategies
     - Project stage
-      - Evaluate the business case for cloud adoption (does AWS meet buisness needs)
+      - Evaluate the business case for cloud adoption (does AWS meet business needs)
     - Foundation stage
       - Migration to AWS begins
     - Migration stage
       - Migrate workloads to AWS
-      - Prepare a ccoe (Cloud Center of Excellence)
+      - Prepare a CCOE (Cloud Center of Excellence)
     - Reinvention stage
-      - Assesment of the cloud environment
+      - Assessment of the cloud environment
   - 7 Migration Strategies
     - Rehost
       - Lift and shift
@@ -153,8 +153,8 @@ Completed: March 19, 2023
     - Repurchase
       - Drop and shop
       - Move to AWS and purchase new software
-    - Refactore
-      - Re-architecting
+    - Refactor
+      - Re-architect
       - Move to AWS and re-architect
     - Retire
       - Drop and stop
@@ -191,7 +191,7 @@ Completed: March 19, 2023
       - d: Implement elasticity
     - Evaluation Options:
       - a: Incorrect
-        - Can use automation to deply resources, but the question is asking about distribution of workloads across multiple Availability Zones not automation.
+        - Can use automation to deploy resources, but the question is asking about distribution of workloads across multiple Availability Zones not automation.
       - b: Incorrect
         - Design for agility is not related to the number of availability zones.
       - c: Correct
@@ -202,7 +202,7 @@ Completed: March 19, 2023
 ### Domain 2: Security and Compliance
 #### 2.1 Understand the AWS shared responsibility model
 - See screenshot in parent folder
-- Customer responsibily
+- Customer responsibly
   - Configuring firewalls and security groups
   - Managing IAM users and roles
   - Responsible for patching on EC2
@@ -303,10 +303,10 @@ Completed: March 19, 2023
   - Availability Zones
   - Regions
   - Edge locations
-- Resilitent services
+- Resilient services
   - Globally Resilient
     - IAM, CloudFront, Route 53
-  - Region resilitient
+  - Region resilient
     - Spread across a region
     - EFS, Batch
   - Single AZ resilient
@@ -321,22 +321,22 @@ Completed: March 19, 2023
     - HTTP uses cases for static IP
     - Fast regional failover
 - Models for Cloud
-  - Iaas
-  - Paas
-  - Saas
-  - Daas
+  - IaaS
+  - PaaS
+  - SaaS
+  - DaaS
 
 #### 3.3 Identify AWS Compute services
 - Amazon EC2
   - Iaas product
   - Virtualization as a service
-  - Availability Zone resilitent
+  - Availability Zone resilient
     - Hosts sits in an AZ
   - Instance Store
     - Temp storage
   - EBS
     - Volumes of persistent storage
-    - Availability Zone resilitent
+    - Availability Zone resilient
   - Instance types/categories
     - T3 - General Purpose
     - C5 - Compute Optimized
@@ -355,7 +355,7 @@ Completed: March 19, 2023
 - Container computing
   - Amazon Elastic Container Service (ECS)
     - Container management service
-    - Continer orchestration service
+    - Container orchestration service
 - AWS Lambda
   - Function as a service
   - Accepts functions
@@ -389,7 +389,7 @@ Completed: March 19, 2023
   - Sits in the public network Zone
   - Auto-scaling
   - Global tables for additional resiliency
-  - latency senstive applications
+  - latency sensitive applications
 - Redshift
   - Data warehousing
   - Column-based
@@ -446,7 +446,7 @@ Completed: March 19, 2023
     - control access with Route Tables
   - Internet Gateway
     - 1 per VPC
-    - REgional resilitant service
+    - REgional resilient service
     - Sits between VPC and AWS Public zone
     - Allows traffic to and from the internet
   - NACL
@@ -489,17 +489,17 @@ Completed: March 19, 2023
     - EFS
       - Elastic File System
       - scaling and self healing properties
-      - Regional resilitent
-      - development enviroments, media stores, content management systems
+      - Regional resilient
+      - development environments, media stores, content management systems
       - Can be shared across AZs
-      - Linux is a keywork (cannot be used on windows)
+      - Linux is a keyword (cannot be used on windows)
     - **Luster**?
       - Large scale computing
   - Block storage
     - Elastic Bloc Storage (EBS)
       - Ultra low latency
       - highly resilient
-      - Persistant storage
+      - Persistent storage
       - can boot from an EBS volume
       - Volume types
         - General Purpose SSD
@@ -572,7 +572,7 @@ Completed: March 19, 2023
     - Fully-managed service
     - scalable
   - Glue
-    - Serverless data intergation service to discover, prepare, move, and integrate data
+    - Serverless data integration service to discover, prepare, move, and integrate data
     - visually create and run workflow jobs
   - QuickSight
     - Business intelligence service
@@ -588,7 +588,7 @@ Completed: March 19, 2023
     - review
     - evolve
     - optimize overtime
-  - Continous improvement
+  - Continuous improvement
     - CloudWatch
       - use alarms to trigger actions
     - CloudTrail
@@ -607,7 +607,7 @@ Completed: March 19, 2023
   - AWS Connect
   - AWS Simple Email Service (SES)
     - Need the email to come from a custom domain
-- **Customer engagment services**
+- **Customer engagement services**
   - AWS Activate
   - AWS IQ
   - AWS Managed Services (MS)

@@ -15,7 +15,7 @@
     - Physical properties of the cloud hardware and software
     - Data encryption + patching servers
   - Customer is responsible for security in the cloud
-- Principle of Least Privlige
+- Principle of Least Privilege
   - Only give the minimum amount of access to a user to perform their job
   - Use IAM to create groups and roles
   - Use IAM to create policies
