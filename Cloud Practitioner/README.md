@@ -1,7 +1,7 @@
 # Prepare for the Cloud Practitioner Exam
 
 ## [X] [LinkedIn Learning Course](https://www.linkedin.com/learning/aws-certified-cloud-practitioner-clf-c01-cert-prep-1-cloud-concepts)
-## [ ] [AWS Certification Prep Guide](https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1)
+## [X] [AWS Certification Prep Guide](https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1)
   - ### [X] Exam Prep Official Question Set: AWS Certified Cloud Practitioner
   - ### [X] AWS Cloud Practitioner Essentials
   - ### [X] AWS Cloud Quest: Cloud Practitioner
@@ -9,8 +9,8 @@
   - ### [X] Exam Prep Official Pretest: AWS Certified Cloud Practitioner
   - ### [X] AWS Technical Essentials (Modules 1, 2, 3, 5, and 6)
   - ### [X] Exam Prep Enhanced Course: AWS Certified Cloud Practitioner
-  - ### [ ] AWS Escape Room: Exam Prep for AWS Certified Cloud Practitioner
-  - ### [ ] Exam Prep Official Practice Exam: AWS Certified Cloud Practitioner
+  - ### [X] AWS Escape Room: Exam Prep for AWS Certified Cloud Practitioner
+  - ### [X] Exam Prep Official Practice Exam: AWS Certified Cloud Practitioner
 
 ## Links
 - [AWS Well-Architected Framework Whitepaper](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)

@@ -1,13 +1,13 @@
-# Coursework related to preparing for AWS Certifications
-
-### Learning Resources
-- LinkedIn Learning
-  - [AWS Certified Cloud Practitioner (CLF-C01) Cert Prep: 1 Cloud Concepts](https://www.linkedin.com/learning/aws-certified-cloud-practitioner-clf-c01-cert-prep-1-cloud-concepts)
+# Coursework & Notes related to preparing for AWS Certifications
 
 ## Certifications
 - AWS Cloud Practitioner
+  - Earned [certificate](https://www.credly.com/badges/18aa6c05-841b-448f-8701-73649e1e39f2) on April 1, 2024
+  ![AWS Cloud Practitioner]("/assets/aws-certified-cloud-practitioner.png") 
 - AWS Solution Architect Associate
+  - Goal for Q2 2024!
 - AWS Developer Associate
+  - Goal for Q4 2024!
 
 ### Repo structure
 ```bash
