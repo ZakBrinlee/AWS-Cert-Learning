@@ -2,7 +2,7 @@
 
 ## [] [LinkedIn Learning Path - Prepare for the AWS Certified Solutions Architect](https://www.linkedin.com/learning/paths/prepare-for-the-aws-certified-solutions-architect-associate-saa-c03-certification)
   - ### [X] Cloud Services Overview
-  - ### [] Storage Design
+  - ### [X] Storage Design
   - ### [] Virtual Private Cloud
   - ### [] Compute Services
   - ### [] Identity and Access Management
