@@ -5,7 +5,7 @@
   - ### [X] Storage Design
   - ### [X] Virtual Private Cloud
   - ### [X] Compute Services
-  - ### [] Identity and Access Management
+  - ### [X] Identity and Access Management
   - ### [] Auto Scaling and Virtual Network Services
   - ### [] Application Deployment
   - ### [] Databases
