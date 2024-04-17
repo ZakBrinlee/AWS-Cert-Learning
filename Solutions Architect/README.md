@@ -6,7 +6,7 @@
   - ### [X] Virtual Private Cloud
   - ### [X] Compute Services
   - ### [X] Identity and Access Management
-  - ### [] Auto Scaling and Virtual Network Services
+  - ### [X] Auto Scaling and Virtual Network Services
   - ### [] Application Deployment
   - ### [] Databases
   - ### [] Services and Design Scenarios
