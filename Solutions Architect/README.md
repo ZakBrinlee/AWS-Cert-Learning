@@ -7,7 +7,7 @@
   - ### [X] Compute Services
   - ### [X] Identity and Access Management
   - ### [X] Auto Scaling and Virtual Network Services
-  - ### [] Application Deployment
+  - ### [X] Application Deployment
   - ### [] Databases
   - ### [] Services and Design Scenarios
 
