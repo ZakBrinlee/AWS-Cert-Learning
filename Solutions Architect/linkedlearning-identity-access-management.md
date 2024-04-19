@@ -3,11 +3,6 @@
 Started: April 16, 2024
 Completed: April 16, 2024
 
-## Links
-- []()
-
-### What I need to know:
-
 ## Notes
 ### Identity and Access Management
 #### Overview

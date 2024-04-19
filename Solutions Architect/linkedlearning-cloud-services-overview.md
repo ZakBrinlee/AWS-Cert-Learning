@@ -7,7 +7,7 @@ Completed: April 8, 2024
 
 ### What I need to know:
 - EFS - Elastic File System
-  - $$ How it works within EC2 connections and how it is used
+  - How it works within EC2 connections and how it is used
 
 ### Cloud Computing Overview
 #### Cloud Computing Defined
