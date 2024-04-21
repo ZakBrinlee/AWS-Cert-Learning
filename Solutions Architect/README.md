@@ -13,8 +13,8 @@
 
 ## [] [AWS SkillBuilder Solutions Architect - Knowledge Badge Readiness Path](https://explore.skillbuilder.aws/learn/lp/1044/solutions-architect-knowledge-badge-readiness-path)
   - ### [X] AWS Technical Essentials
-  - ### [] Introduction to AWS Identity and Access Management (IAM)
-  - ### [] AWS Compute Services Overview
+  - ### [X] Introduction to AWS Identity and Access Management (IAM)
+  - ### [X] AWS Compute Services Overview
   - ### [] Getting Started with AWS Storage
   - ### [] Getting Started with Amazon Simple Storage Service (S3)
   - ### [] Amazon Elastic Block Store (EBS) Primer
