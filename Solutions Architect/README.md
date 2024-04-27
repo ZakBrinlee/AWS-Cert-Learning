@@ -15,7 +15,7 @@
   - ### [X] AWS Technical Essentials
   - ### [X] Introduction to AWS Identity and Access Management (IAM)
   - ### [X] AWS Compute Services Overview
-  - ### [] Getting Started with AWS Storage
+  - ### [X] Getting Started with AWS Storage
   - ### [] Getting Started with Amazon Simple Storage Service (S3)
   - ### [] Amazon Elastic Block Store (EBS) Primer
   - ### [] AWS Database Offerings
@@ -51,6 +51,8 @@
   - ### [] Solutions Architect Knowledge Badge Assessment
 
 ## Top Notes
+### Amazing links
+- [Amazing Application Storage Decision Checklist](https://explore.skillbuilder.aws/learn/course/6233/play/19883/bringing-aws-storage-services-all-together;lp=1044)
 ### What I need to know (direct from courses)
 - EFS - Elastic File System
   - How it works within EC2 connections and how it is used
