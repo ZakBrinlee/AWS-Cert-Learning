@@ -16,7 +16,7 @@
   - ### [X] Introduction to AWS Identity and Access Management (IAM)
   - ### [X] AWS Compute Services Overview
   - ### [X] Getting Started with AWS Storage
-  - ### [] Getting Started with Amazon Simple Storage Service (S3)
+  - ### [X] Getting Started with Amazon Simple Storage Service (S3)
   - ### [] Amazon Elastic Block Store (EBS) Primer
   - ### [] AWS Database Offerings
   - ### [] Amazon DynamoDB - Troubleshooting
