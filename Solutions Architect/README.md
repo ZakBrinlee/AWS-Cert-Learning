@@ -11,7 +11,7 @@
   - ### [X] Databases
   - ### [X] Services and Design Scenarios
 
-## [] [AWS SkillBuilder Solutions Architect - Knowledge Badge Readiness Path](https://explore.skillbuilder.aws/learn/lp/1044/solutions-architect-knowledge-badge-readiness-path)
+## [] [AWS SkillBuilder Solutions Architect - Knowledge Badge Readiness Path - Courses](https://explore.skillbuilder.aws/learn/lp/1044/solutions-architect-knowledge-badge-readiness-path)
   - ### [X] AWS Technical Essentials
   - ### [X] Introduction to AWS Identity and Access Management (IAM)
   - ### [X] AWS Compute Services Overview
@@ -49,6 +49,31 @@
   - ### [] Protecting your Instance with Security Groups
   - ### [] Exam Prep Standard Course: AWS Certified Solutions Architect - Associate
   - ### [] Solutions Architect Knowledge Badge Assessment
+
+
+## [] [AWS Skill Builder Solutions Architect - Knowledge Badge Readiness Path - Labs](https://explore.skillbuilder.aws/learn/lp/1044/solutions-architect-knowledge-badge-readiness-path)
+  - ### [] Introduction to AWS Identity and Access Management (IAM)
+  - ### [] Performing a Basic Audit of your AWS Environment
+  - ### [] Introduction to AWS Key Management Service (KMS)
+  - ### [X] Introduction to Amazon S3
+  - ### [] Building your first Amazon Virtual Private Cloud (VPC)
+  - ### [] Introduction to Elastic Load Balancing
+  - ### [] Comparing VPC Peering and Transit Gateway
+  - ### [] Configuring and Deploying Amazon VPC for a 3-tier Web App
+  - ### [] Launching and Managing a Web Application with CloudFormation
+  - ### [] Deploying your first AWS Lambda Container
+  - ### [] Lift and Shift an Application to Serverless on AWS
+  - ### [] Implementing Multi-Region Backup with Amazon S3 Cross-Region Replication
+  - ### [] Processing App Microservice Messages with Containers
+  - ### [] Auditing Your Security with AWS Trusted Advisor
+  - ### [] AWS Federated Authentication with AD FS
+  - ### [] Working with Amazon CloudFront for Dynamic Content Acceleration
+  - ### [] Update Security Groups Automatically Using AWS Lambda
+  - ### [] Scale Your Security Vulnerability Testing with Amazon Inspector
+  - ### [] Role Assumption Challenge
+  - ### [] Filtering and blocking web incursions with AWS WAF
+  - ### [] Using Data Encryption in AWS
+
 
 ## Top Notes
 ### Amazing links
