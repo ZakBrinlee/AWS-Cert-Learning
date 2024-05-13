@@ -17,7 +17,7 @@
   - ### [X] AWS Compute Services Overview
   - ### [X] Getting Started with AWS Storage
   - ### [X] Getting Started with Amazon Simple Storage Service (S3)
-  - ### [] Amazon Elastic Block Store (EBS) Primer
+  - ### [X] Amazon Elastic Block Store (EBS) Primer
   - ### [] AWS Database Offerings
   - ### [] Amazon DynamoDB - Troubleshooting
   - ### [] Amazon RDS Service Primer
