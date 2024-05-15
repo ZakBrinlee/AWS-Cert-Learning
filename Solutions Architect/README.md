@@ -20,7 +20,7 @@
   - ### [X] Amazon Elastic Block Store (EBS) Primer
   - ### [] AWS Database Offerings
   - ### [] Amazon DynamoDB - Troubleshooting
-  - ### [] Amazon RDS Service Primer
+  - ### [X] Amazon RDS Service Primer
   - ### [X] AWS Networking Basics
   - ### [X] Subnets, Gateways, and Route Tables Explained
   - ### [] Configuring and Deploying VPCs with Multiple Subnets
