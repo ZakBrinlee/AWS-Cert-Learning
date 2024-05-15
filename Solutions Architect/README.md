@@ -52,9 +52,9 @@
 
 
 ## [] [AWS Skill Builder Solutions Architect - Knowledge Badge Readiness Path - Labs](https://explore.skillbuilder.aws/learn/lp/1044/solutions-architect-knowledge-badge-readiness-path)
-  - ### [] Introduction to AWS Identity and Access Management (IAM)
-  - ### [] Performing a Basic Audit of your AWS Environment
-  - ### [] Introduction to AWS Key Management Service (KMS)
+  - ### [X] Introduction to AWS Identity and Access Management (IAM)
+  - ### [X] Performing a Basic Audit of your AWS Environment
+  - ### [X] Introduction to AWS Key Management Service (KMS)
   - ### [X] Introduction to Amazon S3
   - ### [] Building your first Amazon Virtual Private Cloud (VPC)
   - ### [] Introduction to Elastic Load Balancing
