@@ -19,7 +19,7 @@
   - ### [X] Getting Started with Amazon Simple Storage Service (S3)
   - ### [X] Amazon Elastic Block Store (EBS) Primer
   - ### [] AWS Database Offerings
-  - ### [] Amazon DynamoDB - Troubleshooting
+  - ### [X] Amazon DynamoDB - Troubleshooting
   - ### [X] Amazon RDS Service Primer
   - ### [X] AWS Networking Basics
   - ### [X] Subnets, Gateways, and Route Tables Explained
