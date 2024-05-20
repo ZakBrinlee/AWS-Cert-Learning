@@ -24,9 +24,9 @@
   - ### [X] AWS Networking Basics
   - ### [X] Subnets, Gateways, and Route Tables Explained
   - ### [] Configuring and Deploying VPCs with Multiple Subnets
-  - ### [] Introduction to API Gateway
+  - ### [X] Introduction to API Gateway
   - ### [] AWS Network Connectivity Options
-  - ### [] Understanding AWS Networking Gateways
+  - ### [X] Understanding AWS Networking Gateways
   - ### [X] Differences between Security Groups and NACLs
   - ### [] AWS Network - Monitoring and Troubleshooting
   - ### [] Getting Started with AWS CloudFormation
