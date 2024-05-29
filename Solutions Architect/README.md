@@ -28,7 +28,7 @@
   - ### [] AWS Network Connectivity Options
   - ### [X] Understanding AWS Networking Gateways
   - ### [X] Differences between Security Groups and NACLs
-  - ### [] AWS Network - Monitoring and Troubleshooting
+  - ### [X] AWS Network - Monitoring and Troubleshooting
   - ### [] Getting Started with AWS CloudFormation
   - ### [] AWS Well-Architected Considerations for Financial Services
   - ### [] AWS Lambda Foundations
