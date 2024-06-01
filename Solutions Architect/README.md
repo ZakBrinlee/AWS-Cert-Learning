@@ -23,7 +23,7 @@
   - ### [X] Amazon RDS Service Primer
   - ### [X] AWS Networking Basics
   - ### [X] Subnets, Gateways, and Route Tables Explained
-  - ### [] Configuring and Deploying VPCs with Multiple Subnets
+  - ### [X] Configuring and Deploying VPCs with Multiple Subnets
   - ### [X] Introduction to API Gateway
   - ### [] AWS Network Connectivity Options
   - ### [X] Understanding AWS Networking Gateways
