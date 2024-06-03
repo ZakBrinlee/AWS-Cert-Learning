@@ -1,5 +1,9 @@
 # Prepare for the Solutions Architect Associate Exam
 
+## [] [Specialized Courses]()
+  - ### [] [AWS Well-Architected Labs](https://wellarchitectedlabs.com/)
+  - ### [] [AWS Well-Architected Foundations](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/108/aws-well-architected-badge)
+
 ## [X] [LinkedIn Learning Path - Prepare for the AWS Certified Solutions Architect](https://www.linkedin.com/learning/paths/prepare-for-the-aws-certified-solutions-architect-associate-saa-c03-certification)
   - ### [X] Cloud Services Overview
   - ### [X] Storage Design
@@ -30,7 +34,7 @@
   - ### [X] Differences between Security Groups and NACLs
   - ### [X] AWS Network - Monitoring and Troubleshooting
   - ### [X] Getting Started with AWS CloudFormation
-  - ### [] AWS Well-Architected Considerations for Financial Services
+  - ### [X] AWS Well-Architected Considerations for Financial Services
   - ### [] AWS Lambda Foundations
   - ### [] Architecting Serverless Applications
   - ### [] Scaling Serverless Architectures
