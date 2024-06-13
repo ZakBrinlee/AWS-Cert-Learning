@@ -63,7 +63,7 @@
   - ### [] Building your first Amazon Virtual Private Cloud (VPC)
   - ### [] Introduction to Elastic Load Balancing
   - ### [] Comparing VPC Peering and Transit Gateway
-  - ### [] Configuring and Deploying Amazon VPC for a 3-tier Web App
+  - ### [X] Configuring and Deploying Amazon VPC for a 3-tier Web App
   - ### [] Launching and Managing a Web Application with CloudFormation
   - ### [] Deploying your first AWS Lambda Container
   - ### [] Lift and Shift an Application to Serverless on AWS
