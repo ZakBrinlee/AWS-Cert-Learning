@@ -27,7 +27,7 @@
   - ### [X] Amazon RDS Service Primer
   - ### [X] AWS Networking Basics
   - ### [X] Subnets, Gateways, and Route Tables Explained
-  - ### [X] Configuring and Deploying VPCs with Multiple Subnets
+  - ### [X] Configuring and Deploying VPCs with Multiple Subnets (includes Labs)
   - ### [X] Introduction to API Gateway
   - ### [] AWS Network Connectivity Options
   - ### [X] Understanding AWS Networking Gateways
@@ -35,7 +35,7 @@
   - ### [X] AWS Network - Monitoring and Troubleshooting
   - ### [X] Getting Started with AWS CloudFormation
   - ### [X] AWS Well-Architected Considerations for Financial Services
-  - ### [] AWS Lambda Foundations
+  - ### [X] AWS Lambda Foundations
   - ### [] Architecting Serverless Applications
   - ### [] Scaling Serverless Architectures
   - ### [] Amazon Elastic Container Service (ECS) Primer
