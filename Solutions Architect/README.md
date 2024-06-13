@@ -22,7 +22,7 @@
   - ### [X] Getting Started with AWS Storage
   - ### [X] Getting Started with Amazon Simple Storage Service (S3)
   - ### [X] Amazon Elastic Block Store (EBS) Primer
-  - ### [] AWS Database Offerings
+  - ### [X] AWS Database Offerings
   - ### [X] Amazon DynamoDB - Troubleshooting
   - ### [X] Amazon RDS Service Primer
   - ### [X] AWS Networking Basics
@@ -46,7 +46,7 @@
   - ### [] AWS Storage Gateway Deep Dive: Volume Gateway
   - ### [] AWS Storage Gateway Deep Dive: Amazon S3 File Gateway
   - ### [X] Introduction to Step Functions
-  - ### [] Migration Evaluator  overview for Customers
+  - ### [] Migration Evaluator overview for Customers
   - ### [] AWS Backup Primer
   - ### [] Deep Dive with Security: AWS Identity and Access Management (IAM)
   - ### [] Securing and Protecting your Data in Amazon S3
