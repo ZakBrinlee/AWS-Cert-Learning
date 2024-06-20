@@ -37,7 +37,7 @@
   - ### [X] AWS Well-Architected Considerations for Financial Services
   - ### [X] AWS Lambda Foundations
   - ### [X] Architecting Serverless Applications
-  - ### [] Scaling Serverless Architectures
+  - ### [X] Scaling Serverless Architectures
   - ### [] Amazon Elastic Container Service (ECS) Primer
   - ### [] Introduction to Database Migration
   - ### [] AWS Foundations: Cost Management
