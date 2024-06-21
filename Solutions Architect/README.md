@@ -39,7 +39,7 @@
   - ### [X] Architecting Serverless Applications
   - ### [X] Scaling Serverless Architectures
   - ### [] Amazon Elastic Container Service (ECS) Primer
-  - ### [] Introduction to Database Migration
+  - ### [X] Introduction to Database Migration
   - ### [] AWS Foundations: Cost Management
   - ### [] Amazon Simple Storage Service (S3) - Cost Optimization
   - ### [] Deep Dive: Amazon Elastic Block Store (EBS) - Cost Optimization
