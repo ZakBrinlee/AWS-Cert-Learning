@@ -60,7 +60,7 @@
   - ### [X] Performing a Basic Audit of your AWS Environment
   - ### [X] Introduction to AWS Key Management Service (KMS)
   - ### [X] Introduction to Amazon S3
-  - ### [] Building your first Amazon Virtual Private Cloud (VPC)
+  - ### [X] Building your first Amazon Virtual Private Cloud (VPC)
   - ### [] Introduction to Elastic Load Balancing
   - ### [] Comparing VPC Peering and Transit Gateway
   - ### [X] Configuring and Deploying Amazon VPC for a 3-tier Web App
