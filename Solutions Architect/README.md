@@ -61,7 +61,7 @@
   - ### [X] Introduction to AWS Key Management Service (KMS)
   - ### [X] Introduction to Amazon S3
   - ### [X] Building your first Amazon Virtual Private Cloud (VPC)
-  - ### [] Introduction to Elastic Load Balancing
+  - ### [X] Introduction to Elastic Load Balancing
   - ### [] Comparing VPC Peering and Transit Gateway
   - ### [X] Configuring and Deploying Amazon VPC for a 3-tier Web App
   - ### [] Launching and Managing a Web Application with CloudFormation
