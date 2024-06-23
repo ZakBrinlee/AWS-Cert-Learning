@@ -29,7 +29,7 @@
   - ### [X] Subnets, Gateways, and Route Tables Explained
   - ### [X] Configuring and Deploying VPCs with Multiple Subnets (includes Labs)
   - ### [X] Introduction to API Gateway
-  - ### [] AWS Network Connectivity Options
+  - ### [X] AWS Network Connectivity Options
   - ### [X] Understanding AWS Networking Gateways
   - ### [X] Differences between Security Groups and NACLs
   - ### [X] AWS Network - Monitoring and Troubleshooting
