@@ -64,7 +64,7 @@
   - ### [X] Introduction to Elastic Load Balancing
   - ### [] Comparing VPC Peering and Transit Gateway
   - ### [X] Configuring and Deploying Amazon VPC for a 3-tier Web App
-  - ### [] Launching and Managing a Web Application with CloudFormation
+  - ### [X] Launching and Managing a Web Application with CloudFormation
   - ### [] Deploying your first AWS Lambda Container
   - ### [] Lift and Shift an Application to Serverless on AWS
   - ### [] Implementing Multi-Region Backup with Amazon S3 Cross-Region Replication
