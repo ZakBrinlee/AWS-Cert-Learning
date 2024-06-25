@@ -70,7 +70,7 @@
   - ### [] Implementing Multi-Region Backup with Amazon S3 Cross-Region Replication
   - ### [] Processing App Microservice Messages with Containers
   - ### [] Auditing Your Security with AWS Trusted Advisor
-  - ### [] AWS Federated Authentication with AD FS
+  - ### [X] AWS Federated Authentication with AD FS
   - ### [X] Working with Amazon CloudFront for Dynamic Content Acceleration
   - ### [] Update Security Groups Automatically Using AWS Lambda
   - ### [] Scale Your Security Vulnerability Testing with Amazon Inspector
