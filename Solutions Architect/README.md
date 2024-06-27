@@ -42,7 +42,7 @@
   - ### [X] Introduction to Database Migration
   - ### [] AWS Foundations: Cost Management
   - ### [] Amazon Simple Storage Service (S3) - Cost Optimization
-  - ### [] Deep Dive: Amazon Elastic Block Store (EBS) - Cost Optimization
+  - ### [X] Deep Dive: Amazon Elastic Block Store (EBS) - Cost Optimization
   - ### [] AWS Storage Gateway Deep Dive: Volume Gateway
   - ### [] AWS Storage Gateway Deep Dive: Amazon S3 File Gateway
   - ### [X] Introduction to Step Functions
