@@ -65,7 +65,7 @@
   - ### [] Comparing VPC Peering and Transit Gateway
   - ### [X] Configuring and Deploying Amazon VPC for a 3-tier Web App
   - ### [X] Launching and Managing a Web Application with CloudFormation
-  - ### [] Deploying your first AWS Lambda Container
+  - ### [X] Deploying your first AWS Lambda Container
   - ### [] Lift and Shift an Application to Serverless on AWS
   - ### [] Implementing Multi-Region Backup with Amazon S3 Cross-Region Replication
   - ### [] Processing App Microservice Messages with Containers
