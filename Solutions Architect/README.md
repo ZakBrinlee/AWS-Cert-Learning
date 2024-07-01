@@ -66,9 +66,9 @@
   - ### [X] Configuring and Deploying Amazon VPC for a 3-tier Web App
   - ### [X] Launching and Managing a Web Application with CloudFormation
   - ### [X] Deploying your first AWS Lambda Container
-  - ### [] Lift and Shift an Application to Serverless on AWS
-  - ### [] Implementing Multi-Region Backup with Amazon S3 Cross-Region Replication
-  - ### [] Processing App Microservice Messages with Containers
+  - ### [] UNDER MAINTENANCE - Lift and Shift an Application to Serverless on AWS
+  - ### [X] Implementing Multi-Region Backup with Amazon S3 Cross-Region Replication
+  - ### [] UNDER MAINTENANCE - Processing App Microservice Messages with Containers
   - ### [] Auditing Your Security with AWS Trusted Advisor
   - ### [X] AWS Federated Authentication with AD FS
   - ### [X] Working with Amazon CloudFront for Dynamic Content Acceleration
