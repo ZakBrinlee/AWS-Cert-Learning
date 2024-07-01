@@ -69,7 +69,7 @@
   - ### [] UNDER MAINTENANCE - Lift and Shift an Application to Serverless on AWS
   - ### [X] Implementing Multi-Region Backup with Amazon S3 Cross-Region Replication
   - ### [] UNDER MAINTENANCE - Processing App Microservice Messages with Containers
-  - ### [] Auditing Your Security with AWS Trusted Advisor
+  - ### [X] Auditing Your Security with AWS Trusted Advisor
   - ### [X] AWS Federated Authentication with AD FS
   - ### [X] Working with Amazon CloudFront for Dynamic Content Acceleration
   - ### [X] Update Security Groups Automatically Using AWS Lambda
@@ -82,6 +82,9 @@
 ## Top Notes
 ### Amazing links
 - [Amazing Application Storage Decision Checklist](https://explore.skillbuilder.aws/learn/course/6233/play/19883/bringing-aws-storage-services-all-together;lp=1044)
+- [Best Practices for Security, Identity, & Compliance](https://aws.amazon.com/architecture/security-identity-compliance/?cards-all.sort-by=item.additionalFields.sortDate&cards-all.sort-order=desc&awsf.content-type=*all&awsf.methodology=*all)
+
+
 ### What I need to know (direct from courses)
 - EFS - Elastic File System
   - How it works within EC2 connections and how it is used
