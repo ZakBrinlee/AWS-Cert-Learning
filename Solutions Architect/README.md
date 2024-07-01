@@ -72,7 +72,7 @@
   - ### [] Auditing Your Security with AWS Trusted Advisor
   - ### [X] AWS Federated Authentication with AD FS
   - ### [X] Working with Amazon CloudFront for Dynamic Content Acceleration
-  - ### [] Update Security Groups Automatically Using AWS Lambda
+  - ### [X] Update Security Groups Automatically Using AWS Lambda
   - ### [] Scale Your Security Vulnerability Testing with Amazon Inspector
   - ### [] Role Assumption Challenge
   - ### [] Filtering and blocking web incursions with AWS WAF
