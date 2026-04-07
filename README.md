@@ -3,10 +3,10 @@
 - AWS Cloud Practitioner
   - Earned [certificate](https://www.credly.com/badges/18aa6c05-841b-448f-8701-73649e1e39f2) on April 1, 2024
   ![AWS Cloud Practitioner](./assets/aws-certified-cloud-practitioner.png) 
-- AWS Solution Architect Associate
-  - Goal for Q3 2024!
+- AWS AI Practitioner
+  - Goal for Q2 2026
 - AWS Developer Associate
-  - Goal for Q4 2024!
+  - Goal for Q4 2026
 
 ### Repo structure
 ```bash
@@ -15,6 +15,5 @@
 │    │    ├── **/*.{anything related to course work exercises}
 │    │    └── README.md (Course Notes)
 │    └─ README.md (Certification Summary)
-├── README.md
-└── .gitignore
+└── README.md
 ```
