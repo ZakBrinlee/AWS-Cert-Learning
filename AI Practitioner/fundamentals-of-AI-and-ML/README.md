@@ -4,8 +4,15 @@ Started: April 7th, 2026
 Completed: April 7th, 2026
 
 ## Top Notes
-- 
-  - 
+- The AI hierarchy flows from broad to narrow: **AI → ML → Deep Learning → Generative AI** — know all 4 definitions for the exam
+  - Foundation Models are large pre-trained blueprints fine-tuned for specific tasks; LLMs are a type of foundation model for language
+- The **ML Pipeline** has 3 stages: **Generate Data** (fetch, clean, prepare via feature engineering) → **Train Model** (tune parameters/hyperparameters) → **Deploy & Monitor**
+  - Hyperparameters (you set before training: learning rate, batch size, epochs) vs. Parameters (model learns during training: weights & biases)
+- **Model Fit**: Underfitting = too simple, learns too little; Overfitting = memorizes noise, fails on new data; Balanced = generalizes well
+- **5 learning types**: Supervised (labeled data), Unsupervised (clustering/anomaly detection), Semi-supervised, Self-supervised, Reinforcement (feedback loop)
+- **Evaluation metrics differ by task**: Classification → Accuracy, Precision, Recall, F1 Score; Regression → MAE, RMSE, R²
+- Key AWS AI services map to capabilities: Rekognition (vision), Textract (doc extraction), Comprehend (NLP/sentiment), Translate, Polly (TTS), Transcribe (STT), Lex (chatbot), Forecast, Kendra (search), Personalize (recommendations)
+  - **SageMaker** is the fully managed end-to-end ML platform — Studio IDE, Pipelines, Autopilot (AutoML), Data Wrangler, and Feature Store
 
 ### Intro basic AI and ML Concepts
 - AI Model -> data driven -> adaptable -> less transparent (than traditional)
