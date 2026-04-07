@@ -1,6 +1,7 @@
 # [AWS Certified AI Practitioner (AIF-C01): Fundamentals of AI and ML](https://app.pluralsight.com/ilx/video-courses/aws-certified-ai-practitioner-ai-ml-fundamentals/course-overview)
 
 Started: April 7th, 2026
+
 Completed: April 7th, 2026
 
 ## Top Notes
@@ -14,6 +15,7 @@ Completed: April 7th, 2026
 - Key AWS AI services map to capabilities: Rekognition (vision), Textract (doc extraction), Comprehend (NLP/sentiment), Translate, Polly (TTS), Transcribe (STT), Lex (chatbot), Forecast, Kendra (search), Personalize (recommendations)
   - **SageMaker** is the fully managed end-to-end ML platform — Studio IDE, Pipelines, Autopilot (AutoML), Data Wrangler, and Feature Store
 
+---
 ### Intro basic AI and ML Concepts
 - AI Model -> data driven -> adaptable -> less transparent (than traditional)
 - AI meaning -> overarching term for enabling computers to mimic human intelligence
@@ -94,6 +96,7 @@ Completed: April 7th, 2026
 - Model Fit patterns
 - Machine Learning Models
 
+---
 ### The Machine Learning Pipeline
 - Generating Data
   - Fetch -> gather data from sources
@@ -176,6 +179,7 @@ Completed: April 7th, 2026
     - Determine how well a model can predict based on info
       - R Squared
 
+---
 ### AWS Managed AI/ML Services and Applications
 - Key Services
   - Vision
@@ -286,6 +290,7 @@ Completed: April 7th, 2026
       - RELATED_ITEMS
       - USER_SEGMENTATION
 
+---
 ### Unpacking Amazon SageMaker
 - Fully managed service
 - prepare, build, train, tune and deploy ML models from scratch
