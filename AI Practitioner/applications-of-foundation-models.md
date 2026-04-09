@@ -1,6 +1,7 @@
 # [AWS Certified AI Practitioner (AIF-C01): Applications of Foundation Models](https://app.pluralsight.com/ilx/video-courses/aws-certified-ai-practitioner-foundation-models-application/course-overview)
 
 Started: April 8th, 2026
+
 Completed: April 9th, 2026
 
 ## Top Notes

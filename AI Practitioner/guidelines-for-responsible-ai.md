@@ -1,6 +1,7 @@
 # [AWS Certified AI Practitioner (AIF-C01): Guidelines for Responsible AI](https://app.pluralsight.com/ilx/video-courses/aws-certified-ai-practitioner-responsible-ai-guidelines/course-overview)
 
 Started: April 9th, 2026
+
 Completed: April 9th, 2026
 
 ## Top Notes
@@ -110,3 +111,8 @@ Completed: April 9th, 2026
   - evaluates the input/output of foundation models
   - Helps to filter content
   - Can also block user input
+    - Harmful categories
+    - Prompt attacks
+    - Denied Topics
+    - Profanity
+    - PII
