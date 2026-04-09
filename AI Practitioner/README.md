@@ -1,11 +1,11 @@
 # Prepare for the AI Practitioner Exam
 
-## [] [Pluralsight AWS Certified AI Practitioner Path](https://app.pluralsight.com/paths/certificate/aws-certified-ai-practitioner-aif-c01)
+## [X] [Pluralsight AWS Certified AI Practitioner Path](https://app.pluralsight.com/paths/certificate/aws-certified-ai-practitioner-aif-c01)
   - ### [X] Fundamentals of AI & ML
-  - ### [] Fundamentals of generative AI
-  - ### [] Guidelines for Responsible AI
-  - ### [] Applications of Foundation Models
-  - ### [] Security, compliance, and governance for AI solutions
+  - ### [X] Fundamentals of generative AI
+  - ### [X] Guidelines for Responsible AI
+  - ### [X] Applications of Foundation Models
+  - ### [X] Security, compliance, and governance for AI solutions
 
 ## [] [AWS Skill Builder - Exam Prep](https://skillbuilder.aws/category/exam-prep/ai-practitioner-AIF-C01)
   - ### [] 
