@@ -309,7 +309,6 @@
 - **GDPR** — EU data protection regulation
 - **ISO** — international standards
 - **SOC** — internal controls reporting
-- **AWS Artifact** — access to compliance docs, reports, and certifications
 
 ### GRC Services (Governance, Risk, Compliance)
 | Service | Purpose |
