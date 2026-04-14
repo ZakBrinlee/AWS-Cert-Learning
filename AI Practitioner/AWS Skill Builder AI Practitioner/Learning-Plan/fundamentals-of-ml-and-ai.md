@@ -1,0 +1,171 @@
+# [Fundamentals of Machine Learning and Artificial Intelligence](https://skillbuilder.aws/learn/16ASDUHF86/fundamentals-of-machine-learning-and-artificial-intelligence/M7JZCTA94N?parentId=SU2A1EJM1A)
+
+Started: April 13th, 2026
+Completed: April 13th, 2026
+
+
+### Top Notes:
+- Core ML workflow: train on data (structured or unstructured), then run inference.
+    - Inference modes: batch (throughput/accuracy focus) vs real-time (low-latency decisions).
+- Three foundational learning paradigms:
+    - Supervised (labeled data), unsupervised (unlabeled data), reinforcement (feedback/reward-driven optimization).
+- Deep learning uses neural networks (input, hidden, output layers) to learn complex patterns at scale.
+    - Common domains: computer vision and NLP.
+- Foundation models are large pre-trained models that can perform many tasks and be adapted for domain use cases.
+    - Typical FM lifecycle: Data Selection -> Pre-training -> Optimization (prompting/RAG/fine-tuning) -> Evaluation -> Deployment -> Feedback/continuous improvement.
+- Key generative model architectures to remember:
+    - Transformer (text/token reasoning), diffusion (noise-to-content generation), multimodal (cross-data-type understanding), plus GANs/VAEs.
+- Output optimization tradeoffs:
+    - Prompt engineering = fastest/lowest cost.
+    - Fine-tuning = modifies model weights for specialized behavior.
+    - RAG = injects external context without changing model weights.
+- AWS GenAI and ML platform map:
+    - Bedrock (managed FM API layer), SageMaker JumpStart/SageMaker AI (build/train/deploy), Amazon Q and Q Developer (assistant experiences).
+- AWS managed AI services by use case:
+    - Text/docs (Comprehend, Translate, Textract), vision (Rekognition), search (Kendra), chatbots (Lex), speech (Polly/Transcribe), recommendations (Personalize).
+
+#### Machine Learning Fundamentals
+- Data types - (training data)
+    - Structured 
+        - Tabular data: This includes data stored in spreadsheets, databases, or CSV files, with rows representing instances and columns representing features or attributes.
+        - Time-series data: This type of data consists of sequences of values measured at successive points in time, such as stock prices, sensor readings, or weather data.
+    - Unstructured
+        - Text data: This includes documents, articles, social media posts, and other textual data.
+        - Image data: This includes digital images, photographs, and video frames.
+- ML Process (ML Algorithm)
+    - 3 broad categories of learning
+        - Supervised -> trained on labeled data
+        - Unsupervised -> trained on unlabeled data
+        - Reinforcement -> given performance score and semi-supervised learning, only a portion of data is labeled
+- Inferencing (model)
+    - Start to make predictions or decisions
+    - Two main types
+        - Batch -> accuracy of results is more crucial than speed of decision-making
+        - Real-time -> immediate decision-making is critical
+
+#### Deep Learning Fundamentals
+- Involves the use of artifical neural networks -> computational models designed to mimic the way the human brain processes information
+- Neural networks
+    - Lots of nodes organized into layers
+    - Layers include:
+        - Input layer
+        - hidden layer (one or many)
+        - Output layer
+    - figures out how to identify patterns by adjusting the connections between its nodes
+- Usage examples
+    - Computer vision
+    - NLP
+
+#### Generative AI Fundamentals
+- Foundation Models
+    - pre-trained on internet-scale data
+    - Multiple (general) tasks from one FM
+        - text generation
+        - text summarization
+        - info extraction
+        - image generation
+        - chatbot
+        - question answering
+    - use as a starting more for developing specialized models
+- FM Lifecycle Steps
+    - 1 -> Data Selection
+    - 2 -> Pre-training
+    - 3 -> Optimization -> prompt eng, RAG, fine-tuning
+    - 4 -> Evaluation -> measure performance using metrics & benchmarks
+    - 5 -> Deployment
+    - 6 -> Feedback & CI -> monitor and collect feedback
+- LLM - architecture models
+    - Transformer
+        - Understand & generate human-like text
+        - Learned patterns and relationships between works and phrases
+        - Tokens
+            - Tokens can be words, phrases, or individual characters like a period
+    - Diffusion models
+        - deep-learning architecture that starts with pure noise or random data
+            - gradually adds more data until a clear-coherent output is achieved
+        - Learns through a two-step process
+            - Forward diffusion
+                - system gradually introduces a small amount of noise to an input image until only the noise is left over
+            - Reverse diffusion
+                - noisy image is gradually introduced to denoising until a new image is generated
+    - Multimodal
+        - process and generate multiple modes of data simultaneously
+        - learns how different modalities are connected and can influence each other
+    - Others
+        - Generative adversarial networks (GANs)
+            - involves two neural networks competing against each other in zero-sum game framework. (generator and discriminator)
+            - Generator: generates new synthetic data by taking random noise input and transforming to data resembling training data distribution
+            - Discriminator: input is real data from training set and synthetic data by generator and tries to distinguish between real & generated
+        - Variational autoencoders (VAEs)
+            - generative model that combines ideas from autoencoders and variational inference
+            - Encoder: neural network that take input data and maps to a lower-dimensional latent space to capture the essential features of the data
+            - Decoder: neural network that takes the latent reprentation from encoder and creates a reconstruction of the original input data
+- Optimizing model outputs
+    - Techniques
+        - Prompt Engineering
+            - fastest and lowest cost option
+            - focuses on developing, designing, and optimizing prompts to enhance the output of FMs for your needs
+            - guide the model's behavior to outcomes that you want
+            - Prompt Elements
+                - Instructions: description or instruction on how model should perform
+                - Context: external information for model guidance
+                - Input Data: input for which you want a response
+                - Output indicator: output type/format
+        - Fine-tuning
+            - supervised learning process involving adding specific, smaller datasets to a FM
+                - modifies the weights of the data to align with specific task
+            - Two methods
+                - Instruction fine-tuning: use examples of how the model should respond to a specific instruction (prompt tuning is an example)
+                - Reinforcement learning from human feedback: (RLHF) provides human feedback data, results to model that is more aligned with human preferences
+        - Retrieval-augmented generation
+            - supplies domain-relevant data as context to produce responses based on that data
+            - RAG will not change the weights of the foundation model, whereas fine-tuning will change model weights
+
+#### AWD Infra & Tech
+- Generative AI
+    - SageMaker JumpStart
+        - quickly get started with ML. provides set of solution for most common use cases
+    - Bedrock
+        - fully managed service for FM from Amazon and leading AI providers available through an API
+        - serverless experience to quickly setup, experiment, customize, integrate and deploy
+    - Amazon Q
+        - fast overall generative AI tool using data & expertise in your company's info repos, code and enterprise systems.
+    - Amazon Q Developer
+        - ML-powered code recommendations to accelerate development (C#, Java, JavaScript, Python and TypeScript)
+- AI/ML Services
+    - Text & Documents
+        - Comprehend
+            - helps to uncover the insights/relationships in unstructured data
+        - Translate
+            - neural machine translation for natural + accurate language translation
+        - Textract
+            - extracts text & data from docs
+    - Vision
+        - Rekognition
+            - image and video analysis
+            - ability to identify objects, people, text, scenes and activities in images & videos
+            - facial analysis and facial search capabilities
+    - Search
+        - Kendra
+            - intelligent search powered by ML
+    - Chatbots
+        - Lex
+            - fully-managed service for design, build, test & deploy chatbots using voice and text.
+            - provides ASR & NLU features
+    - Speech
+        - Polly
+            - convert text into life-like speech
+        - Transcribe
+            - automatic speech recognition service for speech-to-text conversions
+    - Recommendations
+        - Personalize
+            - creation of individualized recommendations
+    - Misc
+        - DeepRacer
+            - 1/8th scale race car to get started with reinforcement learning in an interesting/fun way
+            - learns very complex behaviors without requiring any labeled training data, and it can make short-term decisions while optimizing for a longer-term goal
+- ML Frameworks
+    - SageMaker AI
+        - offers tools to build, training and run LLM & other FMs
+        - fully managed infra, tools, & workflows
+

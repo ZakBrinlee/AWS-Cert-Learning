@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "autoencoders",
         "BLEU",
         "Chatbots",
         "contridicts",
@@ -8,7 +9,10 @@
         "Gisting",
         "HIPPA",
         "Hyperparameters",
+        "Interpretability",
+        "Multimodal",
         "overfitting",
+        "reprentation",
         "underfitting"
     ]
 }
