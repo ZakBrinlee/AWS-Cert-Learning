@@ -1,7 +1,7 @@
 # [Course Title]()
 
-Started: month , 2024
-Completed: month , 2024
+Started: month , 2026
+Completed: month , 2026
 
 ## Links
 - []()
@@ -9,7 +9,7 @@ Completed: month , 2024
 - []()
 - []()
 
-### What I need to know:
+### Top notes:
 
 ## Notes
 ### Chapter Heading

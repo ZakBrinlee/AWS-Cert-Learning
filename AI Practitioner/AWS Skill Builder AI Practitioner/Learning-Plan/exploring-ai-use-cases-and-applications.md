@@ -5,6 +5,18 @@ Started: April 14th, 2026
 Completed: April 14th, 2026
 
 ### Top Notes:
+- AI delivers value across industries (media, retail, healthcare, life sciences, finance, manufacturing) by improving decisions, personalization, and operational efficiency.
+- Core AI application patterns to recognize: computer vision, NLP, intelligent document processing, and fraud detection.
+- Use ML when rule-based systems become too complex or do not scale well.
+  - Supervised learning: classification (labels/categories) and regression (continuous values).
+  - Unsupervised learning: clustering (grouping similar items) and dimensionality reduction (compressing features while preserving signal).
+  - Reinforcement learning: improves decisions through iterative feedback/reward.
+- Generative AI strengths: adaptability, real-time responsiveness, automation/simplicity, creativity, personalization, and high content scalability.
+- Generative AI risks to monitor: regulatory and social risk, data privacy/security issues, toxicity, hallucinations, interpretability limits, and nondeterministic outputs.
+- Model selection should balance: model type, performance requirements, capabilities, constraints, and compliance needs.
+  - Know common model providers/examples and fit-to-task (text generation, summarization, Q&A, embeddings, and image generation).
+- Business success is measured with outcome metrics, not just model quality.
+  - Key metrics: user satisfaction, conversion rate, ARPU, cross-domain performance, and efficiency.
 
 ## Notes
 
