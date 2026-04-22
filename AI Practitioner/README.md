@@ -10,15 +10,15 @@
 ## [] [AWS Skill Builder - Exam Prep](https://skillbuilder.aws/category/exam-prep/ai-practitioner-AIF-C01)
   - ### [X] Official Practice Question Set: AWS Certified AI Practitioner (AIF-C01 - English)
   - ### [X] Official Pretest: AWS Certified AI Practitioner (AIF-C01 - English)
-  - ### [] AWS Artificial Intelligence Practitioner Learning Plan
-    - #### [] Fundamentals of Machine Learning and Artificial Intelligence
-    - #### [] Exploring Artificial Intelligence Use Cases and Applications
-    - #### [] Responsible Artificial Intelligence Practices
-    - #### [] Developing Machine Learning Solutions
-    - #### [] Developing Generative Artificial Intelligence Solutions
-    - #### [] Optimizing Foundation Models
-    - #### [] Security, Compliance, and Governance for AI Solutions
-    - #### [] Essentials of Prompt Engineering
+  - ### [X] AWS Artificial Intelligence Practitioner Learning Plan
+    - #### [X] Fundamentals of Machine Learning and Artificial Intelligence
+    - #### [X] Exploring Artificial Intelligence Use Cases and Applications
+    - #### [X] Responsible Artificial Intelligence Practices
+    - #### [X] Developing Machine Learning Solutions
+    - #### [X] Developing Generative Artificial Intelligence Solutions
+    - #### [X] Optimizing Foundation Models
+    - #### [X] Security, Compliance, and Governance for AI Solutions
+    - #### [X] Essentials of Prompt Engineering
   - ### [] Review & Practice
     - #### [] Domain 1
         - #### [] Domain 1 Review: AWS Certified AI Practitioner (AIF-C01 - English)
