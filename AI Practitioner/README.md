@@ -21,9 +21,9 @@
     - #### [X] Essentials of Prompt Engineering
   - ### [] Review & Practice
     - #### [] Domain 1
-        - #### [] Domain 1 Review: AWS Certified AI Practitioner (AIF-C01 - English)
+        - #### [X] Domain 1 Review: AWS Certified AI Practitioner (AIF-C01 - English)
         - #### [] Domain 1 Practice: AWS Certified AI Practitioner (AIF-C01 - English)
-        - #### [] Domain 1 Practice: AWS SimuLearn - AWS Certified AI Practitioner (AIF-C01 - English)
+        - #### [X] Domain 1 Practice: AWS SimuLearn - AWS Certified AI Practitioner (AIF-C01 - English)
     - #### [] Domain 2
         - #### [] Domain 2 Review: AWS Certified AI Practitioner (AIF-C01 - English)
         - #### [] Domain 2 Practice: AWS Certified AI Practitioner (AIF-C01 - English)
@@ -36,9 +36,9 @@
     - #### [] Domain 5
         - #### [] Domain 5 Review: AWS Certified AI Practitioner (AIF-C01 - English)
         - #### [] Domain 5 Practice: AWS Certified AI Practitioner (AIF-C01 - English)
-        - #### [] Domain 5 Practice: AWS SimuLearn - AWS Certified AI Practitioner (AIF-C01 - English)
-    - #### [] Escape Room
-        - #### [] AWS Escape Room: Exam Prep for AWS Certified AI Practitioner (AIF-C01)
+        - #### [X] Domain 5 Practice: AWS SimuLearn - AWS Certified AI Practitioner (AIF-C01 - English)
+    - #### [X] Escape Room
+        - #### [X] AWS Escape Room: Exam Prep for AWS Certified AI Practitioner (AIF-C01)
 - #### [] Official Practice Exam: AWS Certified AI Practitioner (AIF-C01 - English)
 
 
